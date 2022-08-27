@@ -150,6 +150,40 @@ nav ul li a{
      width:550px ;
  }
 
+ .about-text p:nth-child(1){
+     color:#FFFFFF;
+     font-family: "myriad pro regular";
+     font-weight: bold;
+     font-size: 23px;
+     line-height:0px ;
+
+ }
+
+ .about-text p:nth-child(2){
+     color:#0808D9;
+     font-size:13px ;
+     font-family: "myriad pro regular";
+     font-weight: bold;
+     line-height:5px ;
+ }
+
+ .about-text p:nth-child(3),
+ .about-text p:nth-Child(4){
+     color:#000000 ;
+     font-family: Calibri;
+     font-size:16px;
+ }
+
+ .about-text button{
+     width: 120px;
+     height: 40px;
+     color: #FFFFFF;
+     outline: none;
+     border:none ;
+     font-family:Calibri ;
+     background-color:#262525 ;
+ }
+
 
 
 
