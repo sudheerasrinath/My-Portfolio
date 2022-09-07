@@ -1,6 +1,3 @@
-
-This Is My Mock-up
-
 # My-Portfolio![My Portfolio](https://user-images.githubusercontent.com/104410190/188867774-9d803383-562f-45e8-b540-7a8d23c9f619.png)
 
 
