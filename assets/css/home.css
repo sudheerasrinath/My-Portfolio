@@ -1414,6 +1414,1416 @@ button:active{
 
 
 
+@media all and (width: 768px){
+
+@charset "utf -8";
+    /*css Document*/
+
+    body{
+        background-color:#000000;
+
+
+    }
+
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    section{
+
+        width:100%;
+        height:90vh;
+
+        background-repeat:no-repeat;
+        background-size:cover;
+
+    }
+
+    nav {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 770px;
+        background-color: #FFFFFF;
+        box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav ul li a{
+        margin: 20px;
+        font-family: myriad pro regular;
+        color: #505050;
+        font-size:15px;
+        font-weight:500;
+
+    }
+
+    .logo{
+        font-family: "Brush Script MT";
+        color:revert;
+        font-size:15px;
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        border-left: 3px solid black ;
+        border-right: 3px solid black ;
+    }
+
+    .active{
+        font-weight: bold;
+        color:#2d2a2a;
+    }
+    .text-container p:nth-child(1){
+        font-family: Calibri;
+        font-weight: bold;
+        color: white;
+        font-size:30px;
+        bottom:100px;
+
+    }
+
+    .text-container p:nth-child(2){
+        font-family: Calibri;
+        font-weight:bold ;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        font-size:20px;
+
+    }
+
+    .text-container p:nth-child(3){
+        font-family: "myriad pro regular";
+        color: #2cddff;
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+    .text-container p{
+        line-height: 0px;
+        margin: 45px 0px 25px;
+
+    }
+
+    .text-container{
+        position: absolute;
+        left: 13%;
+        top: 35%;
+
+    }
+
+    .text-container button{
+        width:130px;
+        height:42px;
+        border-radius:20px;
+        border-color: #ff001c;
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 20px;
+        outline: none;
+        margin:0px 20px;
+
+    }
+
+    .hire-btn{
+
+
+        color :#373636;
+
+    }
+
+    .down-cv{
+
+        background-color:#373636;
+        color: #FFFFFF;
+
+    ;
+
+
+    }
+    button:active{
+        transform:scale(1.1) ;
+    }
+
+    .model{
+        height:180px;
+        position:absolute ;
+        bottom:260px;
+        left:80%;
+        border-radius:100px;
+
+
+    }
+
+    .about.container{
+        width:100%;
+        height: 650px;
+        background-color: midnightblue;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+        display: flex;
+        margin: -7% auto 20px auto;
+        position: relative;
+        justify-content: space-evenly;
+        align-items:center ;
+
+
+    }
+
+    .about-container img{
+        height:120px ;
+
+    }
+
+    .about-text{
+        width:500px ;
+    }
+
+    .about-text p:nth-child(1){
+        color:#FFFFFF;
+        font-family: "myriad pro regular";
+        font-weight: bold;
+        font-size: 35px;
+        line-height:5px ;
+
+    }
+
+    .about-text p:nth-child(2){
+        color:lightseagreen;
+        font-size:20px ;
+        font-family: "myriad pro regular";
+        font-weight: bold;
+        line-height:5px ;
+    }
+
+    .about-text p:nth-child(3),
+    .about-text p:nth-Child(4){
+        color:#000000 ;
+        font-family: Calibri;
+        font-size:30px;
+    }
+
+    #chart{
+        position: absolute;
+        top: 1250px;
+        height: 90vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 250px;
+        align-items: center;
+
+    }
+
+
+
+    #skill{
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+
+
+    .allskill{
+        list-style: none;
+        color: white;
+        font-family: Arial;
+        margin-left: 100px;
+        text-decoration: none;
+
+
+
+    }
+
+    .designset{
+        font-family: Arial;
+        color: white;
+        font-size: 18px;
+    }
+
+    .design{
+
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .designlist{
+        list-style-type: none;
+        margin-left: -40px;
+
+    }
+
+    .webset{
+
+        margin-left: 300px;
+        margin-top: -305px;
+        font-size: 18px;
+
+    }
+
+    .web{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border-bottom: 3px solid white;
+    }
+
+    .weblist{
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+
+    .softwareset{
+        margin-left: 800px;
+        margin-top: -223px;
+        font-size: 18px;
+
+
+    }
+
+    .software{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .softwarelist{
+        color: white;
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+    #tool{
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+
+
+
+
+
+    .contact-me{
+        width: 100%;
+        height: 580px;
+        background-color: black;
+        background-size:auto;
+        background-repeat:no-repeat;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+
+    }
+
+    .contact-me p{
+        color: #FFFFFF;
+        font-size:50px;
+        font-family: Calibri;
+        font-weight: bold;
+        border-bottom: 2px solid #FFFFFF;
+
+    }
+    .contact-me button{
+        width: 200px;
+        height: 40px;
+        background-color: #FFFFFF;
+        outline: none;
+        border:none ;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .Comments{
+        width: 1000px;
+        height: 50px;
+        background-color: black;
+        color: aliceblue;
+        align-content: center;
+        padding: 100px;
+        margin: 20px;
+        border: 2px solid red;
+
+    }
+
+    .Bottom{
+        background-size: auto;
+        background-color: black;
+    }
+}
+
+
+
+
+
+@media all and (width: 1024px){
+
+@charset "utf -8";
+    /*css Document*/
+
+    body{
+        background-color:#000000;
+
+
+    }
+
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    section{
+
+        width:100%;
+        height:90vh;
+
+        background-repeat:no-repeat;
+        background-size:cover;
+
+    }
+
+    nav {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 1024px;
+        background-color: #FFFFFF;
+        box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav ul li a{
+        margin: 20px;
+        font-family: myriad pro regular;
+        color: #505050;
+        font-size:20px;
+        font-weight:500;
+
+    }
+
+    .logo{
+        font-family: "Brush Script MT";
+        color:revert;
+        font-size:20px;
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        border-left: 3px solid black ;
+        border-right: 3px solid black ;
+    }
+
+    .active{
+        font-weight: bold;
+        color:#2d2a2a;
+    }
+    .text-container p:nth-child(1){
+        font-family: Calibri;
+        font-weight: bold;
+        color: white;
+        font-size:30px;
+        bottom:100px;
+
+    }
+
+    .text-container p:nth-child(2){
+        font-family: Calibri;
+        font-weight:bold ;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        font-size:20px;
+
+    }
+
+    .text-container p:nth-child(3){
+        font-family: "myriad pro regular";
+        color: #2cddff;
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+    .text-container p{
+        line-height: 0px;
+        margin: 45px 0px 25px;
+
+    }
+
+    .text-container{
+        position: absolute;
+        left: 13%;
+        top: 35%;
+
+    }
+
+    .text-container button{
+        width:130px;
+        height:42px;
+        border-radius:20px;
+        border-color: #ff001c;
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 20px;
+        outline: none;
+        margin:0px 20px;
+
+    }
+
+    .hire-btn{
+
+
+        color :#373636;
+
+    }
+
+    .down-cv{
+
+        background-color:#373636;
+        color: #FFFFFF;
+
+    ;
+
+
+    }
+    button:active{
+        transform:scale(1.1) ;
+    }
+
+    .model{
+        height:280px;
+        position:absolute ;
+        bottom:260px;
+        left:80%;
+        border-radius:150px;
+
+
+    }
+
+    .about.container{
+        width:100%;
+        height: 650px;
+        background-color: midnightblue;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+        display: flex;
+        margin: -7% auto 20px auto;
+        position: relative;
+        justify-content: space-evenly;
+        align-items:center ;
+
+
+    }
+
+    .about-container img{
+        height:120px ;
+
+    }
+
+    .about-text{
+        width:500px ;
+    }
+
+    .about-text p:nth-child(1){
+        color:#FFFFFF;
+        font-family: "myriad pro regular";
+        font-weight: bold;
+        font-size: 35px;
+        line-height:5px ;
+
+    }
+
+    .about-text p:nth-child(2){
+        color:lightseagreen;
+        font-size:20px ;
+        font-family: "myriad pro regular";
+        font-weight: bold;
+        line-height:5px ;
+    }
+
+    .about-text p:nth-child(3),
+    .about-text p:nth-Child(4){
+        color:#000000 ;
+        font-family: Calibri;
+        font-size:30px;
+    }
+
+    #chart{
+        position: absolute;
+        top: 1250px;
+        height: 90vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 250px;
+        align-items: center;
+
+    }
+
+
+
+    #skill{
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+
+
+    .allskill{
+        list-style: none;
+        color: white;
+        font-family: Arial;
+        margin-left: 100px;
+        text-decoration: none;
+
+
+
+    }
+
+    .designset{
+        font-family: Arial;
+        color: white;
+        font-size: 18px;
+    }
+
+    .design{
+
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .designlist{
+        list-style-type: none;
+        margin-left: -40px;
+
+    }
+
+    .webset{
+
+        margin-left: 300px;
+        margin-top: -305px;
+        font-size: 18px;
+
+    }
+
+    .web{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border-bottom: 3px solid white;
+    }
+
+    .weblist{
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+
+    .softwareset{
+        margin-left: 800px;
+        margin-top: -223px;
+        font-size: 18px;
+
+
+    }
+
+    .software{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .softwarelist{
+        color: white;
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+    #tool{
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+
+
+
+
+
+    .contact-me{
+        width: 100%;
+        height: 580px;
+        background-color: black;
+        background-size:auto;
+        background-repeat:no-repeat;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+
+    }
+
+    .contact-me p{
+        color: #FFFFFF;
+        font-size:50px;
+        font-family: Calibri;
+        font-weight: bold;
+        border-bottom: 2px solid #FFFFFF;
+
+    }
+    .contact-me button{
+        width: 200px;
+        height: 40px;
+        background-color: #FFFFFF;
+        outline: none;
+        border:none ;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .Comments{
+        width: 1000px;
+        height: 50px;
+        background-color: black;
+        color: aliceblue;
+        align-content: center;
+        padding: 100px;
+        margin: 20px;
+        border: 2px solid red;
+
+    }
+
+    .Bottom{
+        background-size: auto;
+        background-color: black;
+    }
+}
+
+
+@media all and (width: 1440px) {
+
+@charset "utf -8";
+    /*css Document*/
+    body {
+        background-color: #000000;
+
+
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    section {
+
+        width: 100%;
+        height: 90vh;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        background-color: #FFFFFF;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li a {
+        margin: 30px;
+        font-family: myriad pro regular;
+        color: #505050;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .logo {
+        font-family: "Brush Script MT";
+        color: revert;
+        font-size: 22px;
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+    }
+
+    .active {
+        font-weight: bold;
+        color: #2d2a2a;
+    }
+
+    .text-container p:nth-child(1) {
+        font-family: Calibri;
+        font-weight: bold;
+        color: white;
+        font-size: 22px;
+
+    }
+
+    .text-container p:nth-child(2) {
+        font-family: Calibri;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        font-size: 60px;
+    }
+
+    .text-container p:nth-child(3) {
+        font-family: "myriad pro regular";
+        color: #2cddff;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .text-container p {
+        line-height: 0px;
+        margin: 45px 0px 25px;
+
+    }
+
+    .text-container {
+        position: absolute;
+        left: 13%;
+        top: 42%;
+
+    }
+
+    .text-container button {
+        width: 130px;
+        height: 42px;
+        border-radius: 20px;
+        border-color: #ff001c;
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 20px;
+        outline: none;
+        margin: 0px 20px;
+
+    }
+
+    .hire-btn {
+
+        border: none;
+        color: #373636;
+
+    }
+
+    .down-cv {
+
+        background-color: #373636;
+        color: #FFFFFF;
+        border: none;
+
+
+    }
+
+    button:active {
+        transform: scale(1.1);
+    }
+
+    .model {
+        height: 450px;
+        position: absolute;
+        bottom: 150px;
+        left: 75%;
+        border-radius: 500px;
+        transform: translate(-45%);
+    }
+
+    .about.container {
+        width: 100%;
+        height: 650px;
+        background-color: midnightblue;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin: -7% auto 20px auto;
+        position: relative;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .about-container img {
+        height: 120px;
+
+    }
+
+    .about-text {
+        width: 500px;
+    }
+
+    .about-text p:nth-child(1) {
+        color: #FFFFFF;
+        font-family: "myriad pro regular";
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 0px;
+
+    }
+
+    .about-text p:nth-child(2) {
+        color: lightseagreen;
+        font-size: 20px;
+        font-family: "myriad pro regular";
+        font-weight: bold;
+        line-height: 5px;
+    }
+
+    .about-text p:nth-child(3),
+    .about-text p:nth-Child(4) {
+        color: #000000;
+        font-family: Calibri;
+        font-size: 30px;
+    }
+
+    #chart {
+        position: absolute;
+        top: 1250px;
+        height: 90vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 250px;
+        align-items: center;
+
+    }
+
+
+    #skill {
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+
+
+    .allskill {
+        list-style: none;
+        color: white;
+        font-family: Arial;
+        margin-left: 100px;
+        text-decoration: none;
+
+
+    }
+
+    .designset {
+        font-family: Arial;
+        color: white;
+        font-size: 18px;
+    }
+
+    .design {
+
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .designlist {
+        list-style-type: none;
+        margin-left: -40px;
+
+    }
+
+    .webset {
+
+        margin-left: 300px;
+        margin-top: -305px;
+        font-size: 18px;
+
+    }
+
+    .web {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border-bottom: 3px solid white;
+    }
+
+    .weblist {
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+
+    .softwareset {
+        margin-left: 800px;
+        margin-top: -223px;
+        font-size: 18px;
+
+
+    }
+
+    .software {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .softwarelist {
+        color: white;
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+
+
+    .contact-me {
+        width: 100%;
+        height: 580px;
+        background-color: black;
+        background-size: auto;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contact-me p {
+        color: #FFFFFF;
+        font-size: 50px;
+        font-family: Calibri;
+        font-weight: bold;
+        border-bottom: 2px solid #FFFFFF;
+
+    }
+
+    .contact-me button {
+        width: 200px;
+        height: 40px;
+        background-color: #FFFFFF;
+        outline: none;
+        border: none;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .Comments {
+        width: 1000px;
+        height: 50px;
+        background-color: black;
+        color: aliceblue;
+        align-content: center;
+        padding: 100px;
+        margin: 20px;
+        border: 2px solid red;
+
+    }
+
+    .Bottom {
+        background-size: auto;
+        background-color: black;
+    }
+}
+
+
+
+
+
+@media all and (width: 2560px) {
+
+@charset "utf -8";
+    /*css Document*/
+    body {
+        background-color: #000000;
+
+
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    section {
+
+        width: 100%;
+        height: 90vh;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        background-color: #FFFFFF;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li a {
+        margin: 30px;
+        font-family: myriad pro regular;
+        color: #505050;
+        font-size: 40px;
+        font-weight: 700;
+
+    }
+
+    .logo {
+        font-family: "Brush Script MT";
+        color: revert;
+        font-size: 80px;
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+    }
+
+    .active {
+        font-weight: bold;
+        color: #2d2a2a;
+    }
+
+    .text-container p:nth-child(1) {
+        font-family: Calibri;
+        font-weight: bold;
+        color: white;
+        font-size: 60px;
+
+    }
+
+    .text-container p:nth-child(2) {
+        font-family: Calibri;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        font-size: 100px;
+    }
+
+    .text-container p:nth-child(3) {
+        font-family: "myriad pro regular";
+        color: #2cddff;
+        font-size: 60px;
+        line-height: 30px;
+    }
+
+    .text-container p {
+        line-height: 50px;
+        margin: 45px 0px 25px;
+
+    }
+
+    .text-container {
+        position: absolute;
+        left: 13%;
+        top: 42%;
+
+    }
+
+    .text-container button {
+        width: 250px;
+        height: 102px;
+        border-radius: 20px;
+        border-color: #ff001c;
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 40px;
+        outline: none;
+        margin: 40px ;
+
+    }
+
+    .hire-btn {
+
+        border: none;
+        color: #373636;
+
+    }
+
+    .down-cv {
+
+        background-color: #373636;
+        color: #FFFFFF;
+        border: none;
+
+
+    }
+
+    button:active {
+        transform: scale(1.1);
+    }
+
+    .model {
+        height: 850px;
+        position: absolute;
+        bottom: 400px;
+        left: 75%;
+        border-radius: 500px;
+        transform: translate(-45%);
+    }
+
+    .about.container {
+        width: 100%;
+        height: 650px;
+        background-color: midnightblue;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin: -7% auto 20px auto;
+        position: relative;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .about-container img {
+        height: 120px;
+
+    }
+
+    .about-text {
+        width: 500px;
+    }
+
+    .about-text p:nth-child(1) {
+        color: #FFFFFF;
+        font-family: "myriad pro regular";
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 0px;
+
+    }
+
+    .about-text p:nth-child(2) {
+        color: lightseagreen;
+        font-size: 20px;
+        font-family: "myriad pro regular";
+        font-weight: bold;
+        line-height: 5px;
+    }
+
+    .about-text p:nth-child(3),
+    .about-text p:nth-Child(4) {
+        color: #000000;
+        font-family: Calibri;
+        font-size: 30px;
+    }
+
+    #chart {
+        position: absolute;
+        top: 1250px;
+        height: 90vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 250px;
+        align-items: center;
+
+    }
+
+
+    #skill {
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+
+
+    .allskill {
+        list-style: none;
+        color: white;
+        font-family: Arial;
+        margin-left: 100px;
+        text-decoration: none;
+
+
+    }
+
+    .designset {
+        font-family: Arial;
+        color: white;
+        font-size: 18px;
+    }
+
+    .design {
+
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .designlist {
+        list-style-type: none;
+        margin-left: -40px;
+
+    }
+
+    .webset {
+
+        margin-left: 300px;
+        margin-top: -305px;
+        font-size: 18px;
+
+    }
+
+    .web {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border-bottom: 3px solid white;
+    }
+
+    .weblist {
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+
+    .softwareset {
+        margin-left: 800px;
+        margin-top: -223px;
+        font-size: 18px;
+
+
+    }
+
+    .software {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .softwarelist {
+        color: white;
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+
+
+    .contact-me {
+        width: 100%;
+        height: 580px;
+        background-color: black;
+        background-size: auto;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contact-me p {
+        color: #FFFFFF;
+        font-size: 50px;
+        font-family: Calibri;
+        font-weight: bold;
+        border-bottom: 2px solid #FFFFFF;
+
+    }
+
+    .contact-me button {
+        width: 200px;
+        height: 40px;
+        background-color: #FFFFFF;
+        outline: none;
+        border: none;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .Comments {
+        width: 1000px;
+        height: 50px;
+        background-color: black;
+        color: aliceblue;
+        align-content: center;
+        padding: 100px;
+        margin: 20px;
+        border: 2px solid red;
+
+    }
+
+    .Bottom {
+        background-size: auto;
+        background-color: black;
+    }
+}
 
 
 
