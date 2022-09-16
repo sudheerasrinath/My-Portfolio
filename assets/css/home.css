@@ -1,151 +1,151 @@
-@charset "utf -8";
 /*css Document*/
-
-body{
-    background-color:#000000;
+body {
+    background-color: #000000;
 
 
 }
 
-ul{
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-section{
 
-    width:100%;
-    height:90vh;
+section {
 
-    background-repeat:no-repeat;
-    background-size:cover;
+    width: 100%;
+    height: 90vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 70px;
     background-color: #FFFFFF;
-    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
-nav ul li a{
+nav ul li a {
     margin: 30px;
     font-family: myriad pro regular;
     color: #505050;
-    font-size:15px;
-    font-weight:700;
+    font-size: 20px;
+    font-weight: 700;
 
 }
 
-.logo{
+.logo {
     font-family: "Brush Script MT";
-    color:revert;
-    font-size:22px ;
+    color: revert;
+    font-size: 22px;
     border-bottom: 3px solid black;
     border-top: 3px solid black;
-    border-left: 3px solid black ;
-    border-right: 3px solid black ;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
 }
 
-.active{
+.active {
     font-weight: bold;
-    color:#2d2a2a;
+    color: #2d2a2a;
 }
-.text-container p:nth-child(1){
+
+.text-container p:nth-child(1) {
     font-family: Calibri;
     font-weight: bold;
     color: white;
-    font-size:22px;
+    font-size: 22px;
 
 }
 
-.text-container p:nth-child(2){
+.text-container p:nth-child(2) {
     font-family: Calibri;
-    font-weight:bold ;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
-    font-size:60px;
+    font-size: 60px;
 }
 
-.text-container p:nth-child(3){
+.text-container p:nth-child(3) {
     font-family: "myriad pro regular";
     color: #2cddff;
     font-size: 30px;
     line-height: 30px;
 }
-.text-container p{
+
+.text-container p {
     line-height: 0px;
     margin: 45px 0px 25px;
 
 }
 
-.text-container{
+.text-container {
     position: absolute;
     left: 13%;
     top: 42%;
 
 }
 
-.text-container button{
-    width:130px;
-    height:42px;
-    border-radius:20px;
+.text-container button {
+    width: 130px;
+    height: 42px;
+    border-radius: 20px;
     border-color: #ff001c;
     font-family: Calibri;
     font-weight: bold;
     font-size: 20px;
     outline: none;
-    margin:0px 20px;
+    margin: 0px 20px;
 
 }
 
-.hire-btn{
+.hire-btn {
 
-    border:none;
-    color :#373636;
+    border: none;
+    color: #373636;
 
 }
 
-.down-cv{
+.down-cv {
 
-    background-color:#373636;
+    background-color: #373636;
     color: #FFFFFF;
-    border:none ;
+    border: none;
 
 
 }
-button:active{
-    transform:scale(1.1) ;
+
+button:active {
+    transform: scale(1.1);
 }
 
-.model{
-    height:450px;
-    position:absolute ;
-    bottom:150px;
-    left:75%;
-    border-radius:500px;
+.model {
+    height: 450px;
+    position: absolute;
+    bottom: 400px;
+    left: 75%;
+    border-radius: 500px;
     transform: translate(-45%);
 }
 
 
 
-
-
-
-
-
-.Bottom{
+.Bottom {
     background-size: auto;
     background-color: black;
 }
+
+
 
 
 
@@ -156,6 +156,7 @@ button:active{
 
     body{
         background-color:#000000;
+        width: 320px;
 
 
     }
@@ -213,6 +214,7 @@ button:active{
     .active{
         font-weight: bold;
         color:#2d2a2a;
+
     }
     .text-container p:nth-child(1){
         font-family: Calibri;
@@ -237,6 +239,7 @@ button:active{
         color: #2cddff;
         font-size: 30px;
         line-height: 30px;
+
 
     }
     .text-container p{
@@ -289,7 +292,7 @@ button:active{
         height:120px;
         position:absolute ;
         bottom:300px;
-        left:70%;
+        left:50%;
         border-radius:100px;
 
 
@@ -661,7 +664,7 @@ button:active{
         justify-content: space-between;
         align-items: center;
         height: 60px;
-        width: 770px;
+        width: 767px;
         background-color: #FFFFFF;
         box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     }
@@ -674,7 +677,7 @@ button:active{
         margin: 20px;
         font-family: myriad pro regular;
         color: #505050;
-        font-size:15px;
+        font-size:20px;
         font-weight:500;
 
     }
@@ -1087,6 +1090,159 @@ button:active{
         height: 450px;
         position: absolute;
         bottom: 150px;
+        left: 75%;
+        border-radius: 500px;
+        transform: translate(-45%);
+    }
+
+
+
+    .Bottom {
+        background-size: auto;
+        background-color: black;
+    }
+}
+
+
+
+@media all and (width: 2560px) {
+
+@charset "utf -8";
+    /*css Document*/
+    body {
+        background-color: #000000;
+
+
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    section {
+
+        width: 100%;
+        height: 90vh;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        background-color: #FFFFFF;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li a {
+        margin: 30px;
+        font-family: myriad pro regular;
+        color: #505050;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .logo {
+        font-family: "Brush Script MT";
+        color: revert;
+        font-size: 22px;
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+    }
+
+    .active {
+        font-weight: bold;
+        color: #2d2a2a;
+    }
+
+    .text-container p:nth-child(1) {
+        font-family: Calibri;
+        font-weight: bold;
+        color: white;
+        font-size: 22px;
+
+    }
+
+    .text-container p:nth-child(2) {
+        font-family: Calibri;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        font-size: 60px;
+    }
+
+    .text-container p:nth-child(3) {
+        font-family: "myriad pro regular";
+        color: #2cddff;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .text-container p {
+        line-height: 0px;
+        margin: 45px 0px 25px;
+
+    }
+
+    .text-container {
+        position: absolute;
+        left: 13%;
+        top: 42%;
+
+    }
+
+    .text-container button {
+        width: 130px;
+        height: 42px;
+        border-radius: 20px;
+        border-color: #ff001c;
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 20px;
+        outline: none;
+        margin: 0px 20px;
+
+    }
+
+    .hire-btn {
+
+        border: none;
+        color: #373636;
+
+    }
+
+    .down-cv {
+
+        background-color: #373636;
+        color: #FFFFFF;
+        border: none;
+
+
+    }
+
+    button:active {
+        transform: scale(1.1);
+    }
+
+    .model {
+        height: 450px;
+        position: absolute;
+        bottom: 400px;
         left: 75%;
         border-radius: 500px;
         transform: translate(-45%);

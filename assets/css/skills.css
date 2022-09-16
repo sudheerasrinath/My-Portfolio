@@ -1,114 +1,114 @@
-@charset "utf -8";
-/*css Document*/
+/*@charset "utf -8";*/
+/*!*css Document*!*/
 
-#chart{
-    position: absolute;
-    top: 1250px;
-    height: 90vh;
-    width: 76vw;
-    background-color: black;
-    margin-left: 250px;
-    align-items: center;
+/*#chart{*/
+/*    position: absolute;*/
+/*    top: 1250px;*/
+/*    height: 90vh;*/
+/*    width: 76vw;*/
+/*    background-color: black;*/
+/*    margin-left: 250px;*/
+/*    align-items: center;*/
 
-}
-
-
-
-#skill{
-    font-family: Arial;
-    color: blue;
-    margin-left: 75px;
-    font-size: 75px;
-
-}
-
-
-.allskill{
-    list-style: none;
-    color: white;
-    font-family: Arial;
-    margin-left: 100px;
-    text-decoration: none;
+/*}*/
 
 
 
-}
+/*#skill{*/
+/*    font-family: Arial;*/
+/*    color: blue;*/
+/*    margin-left: 75px;*/
+/*    font-size: 75px;*/
 
-.designset{
-    font-family: Arial;
-    color: white;
-    font-size: 18px;
-}
-
-.design{
-
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: inline-block;
-    border-bottom: 3px solid white;
-}
-
-.designlist{
-    list-style-type: none;
-    margin-left: -40px;
-
-}
-
-.webset{
-
-    margin-left: 300px;
-    margin-top: -305px;
-    font-size: 18px;
-
-}
-
-.web{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    font-weight: bold;
-    border-bottom: 3px solid white;
-}
-
-.weblist{
-    list-style-type: none;
-    margin-left: -40px;
-}
+/*}*/
 
 
-.softwareset{
-    margin-left: 800px;
-    margin-top: -223px;
-    font-size: 18px;
+/*.allskill{*/
+/*    list-style: none;*/
+/*    color: white;*/
+/*    font-family: Arial;*/
+/*    margin-left: 100px;*/
+/*    text-decoration: none;*/
 
 
-}
 
-.software{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: inline-block;
-    border-bottom: 3px solid white;
-}
+/*}*/
 
-.softwarelist{
-    color: white;
-    list-style-type: none;
-    margin-left: -40px;
-}
+/*.designset{*/
+/*    font-family: Arial;*/
+/*    color: white;*/
+/*    font-size: 18px;*/
+/*}*/
 
-#tool{
-    font-family: Arial;
-    color: blue;
-    margin-left: 75px;
-    font-size: 75px;
+/*.design{*/
 
-}
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: bold;*/
+/*    display: inline-block;*/
+/*    border-bottom: 3px solid white;*/
+/*}*/
+
+/*.designlist{*/
+/*    list-style-type: none;*/
+/*    margin-left: -40px;*/
+
+/*}*/
+
+/*.webset{*/
+
+/*    margin-left: 300px;*/
+/*    margin-top: -305px;*/
+/*    font-size: 18px;*/
+
+/*}*/
+
+/*.web{*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    text-transform: uppercase;*/
+/*    display: inline-block;*/
+/*    font-weight: bold;*/
+/*    border-bottom: 3px solid white;*/
+/*}*/
+
+/*.weblist{*/
+/*    list-style-type: none;*/
+/*    margin-left: -40px;*/
+/*}*/
+
+
+/*.softwareset{*/
+/*    margin-left: 800px;*/
+/*    margin-top: -223px;*/
+/*    font-size: 18px;*/
+
+
+/*}*/
+
+/*.software{*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: bold;*/
+/*    display: inline-block;*/
+/*    border-bottom: 3px solid white;*/
+/*}*/
+
+/*.softwarelist{*/
+/*    color: white;*/
+/*    list-style-type: none;*/
+/*    margin-left: -40px;*/
+/*}*/
+
+/*#tool{*/
+/*    font-family: Arial;*/
+/*    color: blue;*/
+/*    margin-left: 75px;*/
+/*    font-size: 75px;*/
+
+/*}*/
 
 
 @media all and (width: 320px) {
@@ -117,11 +117,11 @@
     /*css Document*/
     #chart {
         position: absolute;
-        top: 1250px;
-        height: 90vh;
-        width: 76vw;
+        top: 1300px;
+        height: 30vh;
+        width: 30vw;
         background-color: black;
-        margin-left: 250px;
+        margin-left: 20px;
         align-items: center;
 
     }
@@ -130,8 +130,8 @@
     #skill {
         font-family: Arial;
         color: blue;
-        margin-left: 75px;
-        font-size: 75px;
+        margin-left: 25px;
+        font-size: 15px;
 
     }
 
@@ -170,8 +170,8 @@
 
     .webset {
 
-        margin-left: 300px;
-        margin-top: -305px;
+        margin-left: 5px;
+        margin-top: -1px;
         font-size: 18px;
 
     }
@@ -192,8 +192,8 @@
 
 
     .softwareset {
-        margin-left: 800px;
-        margin-top: -223px;
+        margin-left: 100px;
+        margin-top: -13px;
         font-size: 18px;
 
 
@@ -229,11 +229,11 @@
     /*css Document*/
     #chart {
         position: absolute;
-        top: 1250px;
-        height: 90vh;
-        width: 76vw;
+        top: 1300px;
+        height: 30vh;
+        width: 30vw;
         background-color: black;
-        margin-left: 250px;
+        margin-left: 20px;
         align-items: center;
 
     }
@@ -242,8 +242,8 @@
     #skill {
         font-family: Arial;
         color: blue;
-        margin-left: 75px;
-        font-size: 75px;
+        margin-left: 25px;
+        font-size: 15px;
 
     }
 
@@ -282,8 +282,8 @@
 
     .webset {
 
-        margin-left: 300px;
-        margin-top: -305px;
+        margin-left: 5px;
+        margin-top: -1px;
         font-size: 18px;
 
     }
@@ -304,8 +304,8 @@
 
 
     .softwareset {
-        margin-left: 800px;
-        margin-top: -223px;
+        margin-left: 100px;
+        margin-top: -13px;
         font-size: 18px;
 
 
@@ -333,8 +333,6 @@
         font-size: 75px;
 
     }
-
-
 }
 
 @media all and (width: 425px) {
@@ -343,11 +341,11 @@
     /*css Document*/
     #chart {
         position: absolute;
-        top: 1250px;
-        height: 90vh;
-        width: 76vw;
+        top: 1300px;
+        height: 30vh;
+        width: 30vw;
         background-color: black;
-        margin-left: 250px;
+        margin-left: 20px;
         align-items: center;
 
     }
@@ -356,8 +354,8 @@
     #skill {
         font-family: Arial;
         color: blue;
-        margin-left: 75px;
-        font-size: 75px;
+        margin-left: 25px;
+        font-size: 15px;
 
     }
 
@@ -396,8 +394,8 @@
 
     .webset {
 
-        margin-left: 300px;
-        margin-top: -305px;
+        margin-left: 5px;
+        margin-top: -1px;
         font-size: 18px;
 
     }
@@ -418,8 +416,8 @@
 
 
     .softwareset {
-        margin-left: 800px;
-        margin-top: -223px;
+        margin-left: 100px;
+        margin-top: -13px;
         font-size: 18px;
 
 
@@ -455,11 +453,11 @@
     /*css Document*/
     #chart {
         position: absolute;
-        top: 1250px;
-        height: 90vh;
+        top: 1300px;
+        height: 20vh;
         width: 76vw;
         background-color: black;
-        margin-left: 250px;
+        margin-left: 10px;
         align-items: center;
 
     }
@@ -468,8 +466,10 @@
     #skill {
         font-family: Arial;
         color: blue;
-        margin-left: 75px;
+        margin-left: 15px;
         font-size: 75px;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
     }
 
@@ -498,17 +498,19 @@
         font-weight: bold;
         display: inline-block;
         border-bottom: 3px solid white;
+        margin-left: -50px;
+
     }
 
     .designlist {
         list-style-type: none;
-        margin-left: -40px;
+        margin-left: -85px;
 
     }
 
     .webset {
 
-        margin-left: 300px;
+        margin-left: 200px;
         margin-top: -305px;
         font-size: 18px;
 
@@ -530,7 +532,7 @@
 
 
     .softwareset {
-        margin-left: 800px;
+        margin-left: 600px;
         margin-top: -223px;
         font-size: 18px;
 
@@ -568,11 +570,128 @@
     /*css Document*/
     #chart {
         position: absolute;
-        top: 1250px;
+        top: 1500px;
+        height: 20vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 10px;
+        align-items: center;
+
+    }
+
+
+    #skill {
+        font-family: Arial;
+        color: blue;
+        margin-left: 15px;
+        font-size: 75px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+    .allskill {
+        list-style: none;
+        color: white;
+        font-family: Arial;
+        margin-left: 100px;
+        text-decoration: none;
+
+
+    }
+
+    .designset {
+        font-family: Arial;
+        color: white;
+        font-size: 18px;
+    }
+
+    .design {
+
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+        margin-left: -50px;
+
+    }
+
+    .designlist {
+        list-style-type: none;
+        margin-left: -85px;
+
+    }
+
+    .webset {
+
+        margin-left: 200px;
+        margin-top: -305px;
+        font-size: 18px;
+
+    }
+
+    .web {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border-bottom: 3px solid white;
+    }
+
+    .weblist {
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+
+    .softwareset {
+        margin-left: 600px;
+        margin-top: -223px;
+        font-size: 18px;
+
+
+    }
+
+    .software {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid white;
+    }
+
+    .softwarelist {
+        color: white;
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 75px;
+
+    }
+}
+
+
+@media all and (width: 1440px) {
+
+@charset "utf -8";
+    /*css Document*/
+    #chart {
+        position: absolute;
+        top: 1700px;
         height: 90vh;
         width: 76vw;
         background-color: black;
-        margin-left: 250px;
+        margin-left: 50px;
         align-items: center;
 
     }
@@ -582,7 +701,7 @@
         font-family: Arial;
         color: blue;
         margin-left: 75px;
-        font-size: 75px;
+        font-size: 85px;
 
     }
 
@@ -672,19 +791,23 @@
         font-size: 75px;
 
     }
+
 }
 
-@media all and (width: 1440px) {
+
+
+
+@media all and (width: 2560px) {
 
 @charset "utf -8";
     /*css Document*/
     #chart {
         position: absolute;
-        top: 1250px;
+        top: 2300px;
         height: 90vh;
         width: 76vw;
         background-color: black;
-        margin-left: 250px;
+        margin-left: 50px;
         align-items: center;
 
     }
@@ -694,7 +817,7 @@
         font-family: Arial;
         color: blue;
         margin-left: 75px;
-        font-size: 75px;
+        font-size: 85px;
 
     }
 

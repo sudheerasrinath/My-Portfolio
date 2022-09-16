@@ -1,0 +1,248 @@
+/*@charset "utf -8";*/
+/*!*css Document*!*/
+/*#chart2{*/
+/*    position: absolute;*/
+/*    top: 1250px;*/
+/*    height: 90vh;*/
+/*    width: 76vw;*/
+/*    background-color: black;*/
+/*    margin-left: 250px;*/
+/*    align-items: center;*/
+/*    */
+/*}*/
+/*#tool{*/
+/*    font-family: Arial;*/
+/*    color: blue;*/
+/*    margin-left:25px;*/
+/*    font-size: 15px;*/
+/*}*/
+
+/*.toolPic{*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*}*/
+
+
+@media all and (width: 320px) {
+
+@charset "utf -8";
+    /*css Document*/
+    #chart2 {
+        position: absolute;
+        top: 1100px;
+        height: 10vh;
+        width: 30vw;
+        background-color: black;
+        margin-left: 25px;
+        align-items: center;
+
+    }
+
+    #tool{
+        font-family: Arial;
+        color: blue;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .toolPic{
+        height: 50px;
+        width: 250px;
+    }
+
+
+}
+
+@media all and (width: 375px) {
+
+@charset "utf -8";
+    /*css Document*/
+    #chart2 {
+        position: absolute;
+        top: 1100px;
+        height: 10vh;
+        width: 30vw;
+        background-color: black;
+        margin-left: 20px;
+        align-items: center;
+
+    }
+
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 25px;
+        font-size: 15px;
+
+    }
+
+    .toolPic{
+        height: 100px;
+        width: 350px;
+    }
+}
+
+
+
+@media all and (width: 425px) {
+
+@charset "utf -8";
+    /*css Document*/
+    #chart2 {
+        position: absolute;
+        top: 1000px;
+        height: 10vh;
+        width: 30vw;
+        background-color: black;
+        margin-left: 20px;
+        align-items: center;
+
+    }
+
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 25px;
+        font-size: 15px;
+
+    }
+
+    .toolPic{
+        height: 100px;
+        width: 400px;
+    }
+}
+
+
+@media all and (width: 768px) {
+
+@charset "utf -8";
+    /*css Document*/
+    #chart2 {
+        position: absolute;
+        top: 500px;
+        height: 20vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 10px;
+        align-items: center;
+
+    }
+
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 15px;
+        font-size: 75px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .toolPic{
+        height: 150px;
+        width: 600px;
+    }
+}
+
+
+
+
+@media all and (width: 1024px) {
+
+@charset "utf -8";
+    /*css Document*/
+    #chart2 {
+        position: absolute;
+        top: 500px;
+        height: 20vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 10px;
+        align-items: center;
+
+    }
+
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 15px;
+        font-size: 75px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .toolPic{
+        height: 175px;
+        width: 700px;
+    }
+}
+
+
+@media all and (width: 1440px) {
+
+@charset "utf -8";
+    /*css Document*/
+    #chart2 {
+        position: absolute;
+        top: 800px;
+        height: 90vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 50px;
+        align-items: center;
+
+    }
+
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 85px;
+
+    }
+
+    .toolPic{
+        height: 200px;
+        width: 800px;
+    }
+}
+
+
+
+@media all and (width: 2560px) {
+
+@charset "utf -8";
+    /*css Document*/
+    #chart2 {
+        position: absolute;
+        top: 1000px;
+        height: 90vh;
+        width: 76vw;
+        background-color: black;
+        margin-left: 50px;
+        align-items: center;
+
+    }
+
+
+    #tool {
+        font-family: Arial;
+        color: blue;
+        margin-left: 75px;
+        font-size: 85px;
+
+    }
+
+    .toolPic{
+        height: 200px;
+        width: 800px;
+    }
+}
+
