@@ -1,26 +1,26 @@
-/*@charset "utf -8";*/
-/*!*css Document*!*/
-/*#chart2{*/
-/*    position: absolute;*/
-/*    top: 1250px;*/
-/*    height: 90vh;*/
-/*    width: 76vw;*/
-/*    background-color: black;*/
-/*    margin-left: 250px;*/
-/*    align-items: center;*/
-/*    */
-/*}*/
-/*#tool{*/
-/*    font-family: Arial;*/
-/*    color: blue;*/
-/*    margin-left:25px;*/
-/*    font-size: 15px;*/
-/*}*/
+@charset "utf -8";
+/*css Document*/
+#chart2{
+    position: absolute;
+    top: 1250px;
+    height: 90vh;
+    width: 76vw;
+    background-color: black;
+    margin-left: 250px;
+    align-items: center;
 
-/*.toolPic{*/
-/*    height: 200px;*/
-/*    width: 200px;*/
-/*}*/
+}
+#tool{
+    font-family: Arial;
+    color: blue;
+    margin-left:25px;
+    font-size: 15px;
+}
+
+.toolPic{
+    height: 200px;
+    width: 200px;
+}
 
 
 @media all and (width: 320px) {

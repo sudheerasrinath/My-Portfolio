@@ -1,28 +1,29 @@
 @charset "utf -8";
 /*css Document*/
 
-.contact-me{
-    width: 100%;
-    height: 580px;
-    background-color: black;
-    background-size:auto;
-    background-repeat:no-repeat;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items:center;
+/*.contact-me{*/
+/*    width: 100%;*/
+/*    height: 1080px;*/
+/*    background-color: black;*/
+/*    background-size:auto;*/
+/*    background-repeat:no-repeat;*/
+/*    display: flex;*/
+/*    flex-direction:column;*/
+/*    justify-content: center;*/
+/*    align-items:center;*/
 
-}
+/*}*/
 
-.contact-me p{
-    color: #FFFFFF;
-    font-size:50px;
-    font-family: Calibri;
-    font-weight: bold;
-    border-bottom: 2px solid #FFFFFF;
+/*.contact-me p{*/
+/*    color: #FFFFFF;*/
+/*    font-size:50px;*/
+/*    font-family: Calibri;*/
+/*    font-weight: bold;*/
+/*    border-bottom: 2px solid #FFFFFF;*/
 
-}
+/*}*/
 .contact-me button{
+
     width: 200px;
     height: 40px;
     background-color: #FFFFFF;
@@ -32,16 +33,16 @@
     font-weight: bold;
 }
 
-.Comments {
-    width: 1000px;
-    height: 50px;
-    background-color: black;
-    color: aliceblue;
-    align-content: center;
-    padding: 100px;
-    margin: 20px;
-    border: 2px solid red;
-}
+/*.Comments {*/
+/*    width: 1000px;*/
+/*    height: 50px;*/
+/*    background-color: black;*/
+/*    color: aliceblue;*/
+/*    align-content: center;*/
+/*    padding: 100px;*/
+/*    margin: 20px;*/
+/*    border: 2px solid red;*/
+/*}*/
 
 
 
@@ -50,49 +51,51 @@
 
 @charset "utf -8";
     /*css Document*/
-    .contact-me {
-        width: 100%;
-        height: 580px;
-        background-color: black;
-        background-size: auto;
-        background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    /*.contact-me {*/
+    /*    bottom: 80%;*/
+    /*    width: 10%;*/
+    /*    height: 580px;*/
+    /*    background-color: black;*/
+    /*    background-size: auto;*/
+    /*    background-repeat: no-repeat;*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
 
-    }
+    /*}*/
 
 
-    .contact-me p{
-        color: #FFFFFF;
-        font-size:50px;
-        font-family: Calibri;
-        font-weight: bold;
-        border-bottom: 2px solid #FFFFFF;
+    /*.contact-me p{*/
+    /*    color: #FFFFFF;*/
+    /*    font-size:50px;*/
+    /*    font-family: Calibri;*/
+    /*    font-weight: bold;*/
+    /*    border-bottom: 2px solid #FFFFFF;*/
 
-    }
+    /*}*/
     .contact-me button{
-        width: 200px;
-        height: 40px;
+
+        width: 120px;
+        height: 30px;
         background-color: #FFFFFF;
         outline: none;
         border:none ;
-        font-size: 25px;
+        font-size: 15px;
         font-weight: bold;
     }
 
-    .Comments{
-        width: 1000px;
-        height: 50px;
-        background-color: black;
-        color: aliceblue;
-        align-content: center;
-        padding: 100px;
-        margin: 20px;
-        border: 2px solid red;
+    /*.Comments{*/
+    /*    width: 1000px;*/
+    /*    height: 50px;*/
+    /*    background-color: black;*/
+    /*    color: aliceblue;*/
+    /*    align-content: center;*/
+    /*    padding: 100px;*/
+    /*    margin: 20px;*/
+    /*    border: 2px solid red;*/
 
-    }
+    /*}*/
 }
 
 
@@ -101,81 +104,82 @@
 
 @charset "utf -8";
     /*css Document*/
-    .contact-me {
-        width: 100%;
-        height: 580px;
-        background-color: black;
-        background-size: auto;
-        background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+/*    .contact-me {*/
+/*        width: 100%;*/
+/*        height: 580px;*/
+/*        background-color: black;*/
+/*        background-size: auto;*/
+/*        background-repeat: no-repeat;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
 
-    }
+/*    }*/
 
-    .contact-me p {
-        color: #FFFFFF;
-        font-size: 50px;
-        font-family: Calibri;
-        font-weight: bold;
-        border-bottom: 2px solid #FFFFFF;
+/*    .contact-me p {*/
+/*        color: #FFFFFF;*/
+/*        font-size: 50px;*/
+/*        font-family: Calibri;*/
+/*        font-weight: bold;*/
+/*        border-bottom: 2px solid #FFFFFF;*/
 
-    }
+/*    }*/
 
     .contact-me button {
-        width: 200px;
-        height: 40px;
+
+        width: 120px;
+        height: 30px;
         background-color: #FFFFFF;
         outline: none;
         border: none;
-        font-size: 25px;
+        font-size: 10px;
         font-weight: bold;
     }
 
-    .Comments {
-        width: 1000px;
-        height: 50px;
-        background-color: black;
-        color: aliceblue;
-        align-content: center;
-        padding: 100px;
-        margin: 20px;
-        border: 2px solid red;
+/*    .Comments {*/
+/*        width: 1000px;*/
+/*        height: 50px;*/
+/*        background-color: black;*/
+/*        color: aliceblue;*/
+/*        align-content: center;*/
+/*        padding: 100px;*/
+/*        margin: 20px;*/
+/*        border: 2px solid red;*/
 
-    }
+    /*}*/
 }
 
 
     @media all and (width: 425px) {
 
     @charset "utf -8";
-        /*css Document*/
-        .contact-me {
-            width: 100%;
-            height: 580px;
-            background-color: black;
-            background-size: auto;
-            background-repeat: no-repeat;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+/*        !*css Document*!*/
+/*        .contact-me {*/
+/*            width: 100%;*/
+/*            height: 1080px;*/
+/*            background-color: black;*/
+/*            background-size: auto;*/
+/*            background-repeat: no-repeat;*/
+/*            display: flex;*/
+/*            flex-direction: column;*/
+/*            justify-content: center;*/
+/*            align-items: center;*/
 
-        }
+/*        }*/
 
-        .contact-me p {
-            color: #FFFFFF;
-            font-size: 50px;
-            font-family: Calibri;
-            font-weight: bold;
-            border-bottom: 2px solid #FFFFFF;
+/*        .contact-me p {*/
+/*            color: #FFFFFF;*/
+/*            font-size: 50px;*/
+/*            font-family: Calibri;*/
+/*            font-weight: bold;*/
+/*            border-bottom: 2px solid #FFFFFF;*/
 
-        }
+/*        }*/
 
         .contact-me button {
-            width: 200px;
-            height: 40px;
+            width: 120px;
+            height: 30px;
             background-color: #FFFFFF;
             outline: none;
             border: none;
@@ -183,17 +187,17 @@
             font-weight: bold;
         }
 
-        .Comments {
-            width: 1000px;
-            height: 50px;
-            background-color: black;
-            color: aliceblue;
-            align-content: center;
-            padding: 100px;
-            margin: 20px;
-            border: 2px solid red;
+/*        .Comments {*/
+/*            width: 1000px;*/
+/*            height: 50px;*/
+/*            background-color: black;*/
+/*            color: aliceblue;*/
+/*            align-content: center;*/
+/*            padding: 100px;*/
+/*            margin: 20px;*/
+/*            border: 2px solid red;*/
 
-        }
+/*        }*/
     }
 
 
@@ -201,31 +205,31 @@
 
     @charset "utf -8";
         /*css Document*/
-        .contact-me {
-            width: 100%;
-            height: 580px;
-            background-color: black;
-            background-size: auto;
-            background-repeat: no-repeat;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+/*        .contact-me {*/
+/*            width: 100%;*/
+/*            height: 580px;*/
+/*            background-color: black;*/
+/*            background-size: auto;*/
+/*            background-repeat: no-repeat;*/
+/*            display: flex;*/
+/*            flex-direction: column;*/
+/*            justify-content: center;*/
+/*            align-items: center;*/
 
-        }
+/*        }*/
 
-        .contact-me p {
-            color: #FFFFFF;
-            font-size: 50px;
-            font-family: Calibri;
-            font-weight: bold;
-            border-bottom: 2px solid #FFFFFF;
+/*        .contact-me p {*/
+/*            color: #FFFFFF;*/
+/*            font-size: 50px;*/
+/*            font-family: Calibri;*/
+/*            font-weight: bold;*/
+/*            border-bottom: 2px solid #FFFFFF;*/
 
-        }
+/*        }*/
 
         .contact-me button {
-            width: 200px;
-            height: 40px;
+            width: 120px;
+            height: 30px;
             background-color: #FFFFFF;
             outline: none;
             border: none;
@@ -233,48 +237,48 @@
             font-weight: bold;
         }
 
-        .Comments {
-            width: 1000px;
-            height: 50px;
-            background-color: black;
-            color: aliceblue;
-            align-content: center;
-            padding: 100px;
-            margin: 20px;
-            border: 2px solid red;
+/*        .Comments {*/
+/*            width: 1000px;*/
+/*            height: 50px;*/
+/*            background-color: black;*/
+/*            color: aliceblue;*/
+/*            align-content: center;*/
+/*            padding: 100px;*/
+/*            margin: 20px;*/
+/*            border: 2px solid red;*/
 
-        }
+/*        }*/
     }
 
     @media all and (width: 1024px) {
 
     @charset "utf -8";
         /*css Document*/
-        .contact-me {
-            width: 100%;
-            height: 580px;
-            background-color: black;
-            background-size: auto;
-            background-repeat: no-repeat;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+/*        .contact-me {*/
+/*            width: 100%;*/
+/*            height: 580px;*/
+/*            background-color: black;*/
+/*            background-size: auto;*/
+/*            background-repeat: no-repeat;*/
+/*            display: flex;*/
+/*            flex-direction: column;*/
+/*            justify-content: center;*/
+/*            align-items: center;*/
 
-        }
+/*        }*/
 
-        .contact-me p {
-            color: #FFFFFF;
-            font-size: 50px;
-            font-family: Calibri;
-            font-weight: bold;
-            border-bottom: 2px solid #FFFFFF;
+/*        .contact-me p {*/
+/*            color: #FFFFFF;*/
+/*            font-size: 50px;*/
+/*            font-family: Calibri;*/
+/*            font-weight: bold;*/
+/*            border-bottom: 2px solid #FFFFFF;*/
 
-        }
+/*        }*/
 
         .contact-me button {
-            width: 200px;
-            height: 40px;
+            width: 120px;
+            height: 30px;
             background-color: #FFFFFF;
             outline: none;
             border: none;
@@ -282,48 +286,48 @@
             font-weight: bold;
         }
 
-        .Comments {
-            width: 1000px;
-            height: 50px;
-            background-color: black;
-            color: aliceblue;
-            align-content: center;
-            padding: 100px;
-            margin: 20px;
-            border: 2px solid red;
+/*        .Comments {*/
+/*            width: 1000px;*/
+/*            height: 50px;*/
+/*            background-color: black;*/
+/*            color: aliceblue;*/
+/*            align-content: center;*/
+/*            padding: 100px;*/
+/*            margin: 20px;*/
+/*            border: 2px solid red;*/
 
-        }
+/*        }*/
     }
 
     @media all and (width: 1440px) {
 
     @charset "utf -8";
         /*css Document*/
-        .contact-me {
-            width: 100%;
-            height: 580px;
-            background-color: black;
-            background-size: auto;
-            background-repeat: no-repeat;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+/*        .contact-me {*/
+/*            width: 100%;*/
+/*            height: 580px;*/
+/*            background-color: black;*/
+/*            background-size: auto;*/
+/*            background-repeat: no-repeat;*/
+/*            display: flex;*/
+/*            flex-direction: column;*/
+/*            justify-content: center;*/
+/*            align-items: center;*/
 
-        }
+/*        }*/
 
-        .contact-me p {
-            color: #FFFFFF;
-            font-size: 50px;
-            font-family: Calibri;
-            font-weight: bold;
-            border-bottom: 2px solid #FFFFFF;
+/*        .contact-me p {*/
+/*            color: #FFFFFF;*/
+/*            font-size: 50px;*/
+/*            font-family: Calibri;*/
+/*            font-weight: bold;*/
+/*            border-bottom: 2px solid #FFFFFF;*/
 
-        }
+/*        }*/
 
         .contact-me button {
-            width: 200px;
-            height: 40px;
+            width: 120px;
+            height: 30px;
             background-color: #FFFFFF;
             outline: none;
             border: none;
@@ -331,16 +335,16 @@
             font-weight: bold;
         }
 
-        .Comments {
-            width: 1000px;
-            height: 50px;
-            background-color: black;
-            color: aliceblue;
-            align-content: center;
-            padding: 100px;
-            margin: 20px;
-            border: 2px solid red;
+/*        .Comments {*/
+/*            width: 1000px;*/
+/*            height: 50px;*/
+/*            background-color: black;*/
+/*            color: aliceblue;*/
+/*            align-content: center;*/
+/*            padding: 100px;*/
+/*            margin: 20px;*/
+/*            border: 2px solid red;*/
 
-        }
+/*        }*/
     }
 
