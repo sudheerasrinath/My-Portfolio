@@ -4,11 +4,11 @@
 
 #chart{
     position: absolute;
-    top: 1250px;
-    height: 90vh;
+    top: 1550px;
+    height: 85vh;
     width: 76vw;
     background-color: black;
-    margin-left: 250px;
+    margin-left: 100px;
     align-items: center;
 
 }
@@ -16,9 +16,12 @@
 
 
 #skill{
+    position: absolute;
+    bottom: 680px;
     font-family: Arial;
     color: blue;
-    margin-left: 75px;
+    margin-left: 25px;
+    margin-top: 25px;
     font-size: 75px;
 
 }

@@ -2,11 +2,11 @@
 /*css Document*/
 #chart2{
     position: absolute;
-    top: 1250px;
+    top: 1950px;
     height: 90vh;
     width: 76vw;
     background-color: black;
-    margin-left: 250px;
+    margin-left: 100px;
     align-items: center;
 
 }
@@ -14,12 +14,13 @@
     font-family: Arial;
     color: blue;
     margin-left:25px;
-    font-size: 15px;
+    font-size: 75px;
 }
 
 .toolPic{
+    margin-left: 25px;
     height: 200px;
-    width: 200px;
+    width: 1000px;
 }
 
 
@@ -222,7 +223,7 @@
     /*css Document*/
     #chart2 {
         position: absolute;
-        top: 1000px;
+        top: 500px;
         height: 90vh;
         width: 76vw;
         background-color: black;
@@ -242,7 +243,7 @@
 
     .toolPic{
         height: 200px;
-        width: 800px;
+        width: 500px;
     }
 }
 
