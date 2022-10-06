@@ -1,18 +1,19 @@
 @charset "utf -8";
+/*css Document*/
 #chart4{
     position: absolute;
     top: 3450px;
     height: 800px;
     width: 76vw;
-    background-color: orange;
+    background-color: black;
     margin-left: 100px;
     margin-bottom: 100px;
     align-items: center;
 
-}/*css Document*/
+}
 
 
-#myprojects{
+#contactme{
     position: relative;
     font-family: Arial;
     color: blue;
@@ -20,6 +21,38 @@
     margin-top: 25px;
     font-size: 75px;
 }
+
+.smallpic{
+    
+    position: absolute;
+    left: 50%;
+    top: 192px;
+    z-index: 2;
+    border-radius: 80px;
+}
+
+.greenCircle{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left:50%;
+    top: 192px;
+    border-radius: 100%;
+    background: #00F461;
+    z-index: 2;
+}
+
+.Circle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    top: 192px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+
 /*.contactRec {*/
 /*    position: relative;*/
 /*    width: 68.73vw;*/

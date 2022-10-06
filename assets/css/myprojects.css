@@ -4,7 +4,7 @@
     top: 2550px;
     height: 800px;
     width: 76vw;
-    background-color: darkgrey;
+    background-color: black;
     margin-left: 100px;
     margin-bottom: 100px;
     align-items: center;
@@ -25,6 +25,9 @@
     position: absolute;
     top: 400px;
     left: 100px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+
 }
 
 .hms{
@@ -37,5 +40,12 @@
     position: absolute;
     top: 400px;
     right: 150px;
-    
+
+}
+
+.more-projects{
+    position: absolute;
+    top: 550px;
+    right: 650px;
+
 }
