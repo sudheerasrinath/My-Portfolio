@@ -1,0 +1,16 @@
+#chart3{
+    position: absolute;
+    top: 2950px;
+    height: 90vh;
+    width: 76vw;
+    background-color: black;
+    margin-left: 100px;
+    align-items: center;
+
+}
+#tool {
+    font-family: Arial;
+    color: blue;
+    margin-left: 25px;
+    font-size: 75px;
+}

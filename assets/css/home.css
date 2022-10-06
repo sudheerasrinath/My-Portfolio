@@ -3,8 +3,7 @@
 
 body{
     background-color:#000000;
-    margin: 0px;
-    padding:0px;
+
 
 }
 
@@ -25,6 +24,7 @@ section{
 }
 
 nav {
+
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -34,10 +34,12 @@ nav {
 }
 
 nav ul{
+
     display: flex;
 }
 
 nav ul li a{
+
     margin: 30px;
     font-family: myriad pro regular;
     color: #505050;

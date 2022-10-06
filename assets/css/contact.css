@@ -1,927 +1,958 @@
-/*Fifth Page*/
-#fifthPage{
-    height: 400px;
-    /* background-color: darkblue;*/
-}
-
-.contactRec{
+.contactRec {
     position: relative;
-    width: 98.73vw;
-    height: 400px;
-    left: 0px;
-    top: 2500px;
+    width: 68.73vw;
+    height: 300px;
+    left: 200px;
+    top: 1500px;
     z-index: 1;
-    fill: black;
-}
-
-#get{
-    position: absolute;
-    width: 287px;
-    height: 46px;
-    left: 39.5%;
-    top: 2500px;
-    font-family: 'Arial';
-    color: blue;
-    z-index: 1;
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-
-#let{
-    position: absolute;
-    width: 600px;
-    height: 46px;
-    left: 29%;
-    top: 2700px;
-    font-family: 'Arial';
-    color: white;
-    z-index: 1;
-    font-size: 25px;
-
+    fill: gray;
 }
 
 
-.smallpic{
-    position: absolute;
-    left: 37%;
-    top: 2800px;
-    z-index: 2;
-}
-
-.greenCircle{
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left:38.5%;
-    top: 2800px;
-    border-radius: 100%;
-    background: #00F461;
-    z-index: 2;
-}
-
-.Circle{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 37%;
-    top: 2800px;
-    border-radius: 100%;
-    background: white;
-    z-index: 1;
-}
-
-#reply{
-    position: absolute;
-    width: 255px;
-    height: 29px;
-    left: 37.5%;
-    top: 3720px;
-    font-size: 15px;
-    font-family: 'Arial';
-    color: white;
-    z-index: 1;
-}
-
-.gmail{
-    position: absolute;
-    width: 237px;
-    height: 30px;
-    left: 460px;
-    top: 2900px;
-    border-radius: 5px;
-    background-color: #701C7D;
-    z-index: 1;
-    border: #701C7D;
-}
-
-.number {
-    position: absolute;
-    width: 170px;
-    height: 30px;
-    right: 33.5%;
-    top: 2900px;
-    border-radius: 5px;
-    background-color: #3ABB56;
-    z-index: 1;
-    border: #3ABB56;
-}
-
-#tel{
-    color: #FFFFFF;
+#comments{
     font-family: Arial;
+    position: relative;
+    top: 1000px;
+    left: 100px;
+    color: blue;
+    font-size: 75px;
+
 }
 
-/*================================== 320 ->Mobile -S ==================================*/
-@media all and (width: 320px){
-    /*Fifth Page*/
-
-    .contactRec{
-        position: relative;
-        width: 100vw;
-        height: 400px;
-        left: 0px;
-        top: 0px;
-        z-index: 1;
-        fill: white;
-    }
-
-    #get{
-        position: absolute;
-        width: 287px;
-        height: 46px;
-        left: 7%;
-        top: 3281px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 16px;
-        margin-bottom: 15px;
-    }
-
-    #let{
-        position: absolute;
-        width: 289px;
-        height: 46px;
-        left: 6%;
-        top: 3303px;
-        font-family: 'Arial';
-        color: white;
-        z-index: 1;
-        font-size: 23px;
-    }
-
-    .first{
-        position: absolute;
-        width: 219px;
-        height: 29px;
-        left: 16%;
-        top: 3359px;
-        font-family: 'Arial';
-        font-size: 11px;
-        color: white;
-        z-index: 1;
-    }
-
-    .second{
-        position: absolute;
-        width: 219px;
-        height: 29px;
-        left: 16%;
-        top: 3385px;
-        font-family: 'Arial';
-        font-size: 11px;
-        color: white;
-        z-index: 1;
-    }
-
-    .smallpic{
-        position: absolute;
-        left: 23%;
-        top: 3430px;
-        z-index: 2;
-    }
-
-    .greenCircle{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: 29%;
-        top: 3455px;
-        border-radius: 100%;
-        background: #00F461;
-        z-index: 2;
-    }
-
-    .Circle{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 23%;
-        top: 3430px;
-        border-radius: 100%;
-        background: white;
-        z-index: 1;
-    }
-
-    #reply{
-        position: absolute;
-        width: 255px;
-        height: 29px;
-        left: 17%;
-        top: 3429px;
-        font-size: 12px;
-        font-family: 'Arial';
-        color: white;
-        z-index: 1;
-    }
-
-    .gmail{
-        position: absolute;
-        width: 219px;
-        height: 39px;
-        left: 51px;
-        top: 219em;
-        border-radius: 5px;
-        background-color: #701C7D;
-        z-index: 1;
-        border: #701C7D;
-    }
-
-    .number {
-        position: absolute;
-        width: 170px;
-        height: 30px;
-        right: 23%;
-        top: 223em;
-        border-radius: 5px;
-        background-color: #3ABB56;
-        z-index: 1;
-        border: #3ABB56;
-    }
-
-    #tel{
-        color: #FFFFFF;
-        font-family: Arial;
-        font-size: 13px;
-    }
-
-    #email{
-        font-size: 13px;
-    }
-}
-
-/*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px) {
-    .contactRec{
-        position: relative;
-        width: 100vw;
-        height: 400px;
-        left: 0px;
-        top: 0px;
-        z-index: 1;
-        fill: white;
-    }
-
-    #get{
-        position: absolute;
-        width: 287px;
-        height: 46px;
-        left: 14%;
-        top: 3532px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 18px;
-        margin-bottom: 15px;
-    }
-
-    #let{
-        position: absolute;
-        width: 289px;
-        height: 46px;
-        left: 13%;
-        top: 3566px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 23px;
-    }
-
-    .first{
-        position: absolute;
-        width: 270px;
-        height: 29px;
-        left: 15%;
-        top: 3630px;
-        font-family: 'Arial';
-        font-size: 13px;
-        color: black;
-        z-index: 1;
-    }
-
-    .second{
-        position: absolute;
-        width: 276px;
-        height: 29px;
-        left: 14%;
-        top: 3660px;
-        font-family: 'Arial';
-        font-size: 13px;
-        color: black;
-        z-index: 1;
-    }
-
-    .smallpic{
-        position: absolute;
-        left: 25%;
-        top: 3726px;
-        z-index: 2;
-    }
-
-    .greenCircle{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: 29.5%;
-        top: 3750px;
-        border-radius: 100%;
-        background: #00F461;
-        z-index: 2;
-    }
-
-    .Circle{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 25%;
-        top: 3726px;
-        border-radius: 100%;
-        background: white;
-        z-index: 1;
-    }
-
-    #reply{
-        position: absolute;
-        width: 255px;
-        height: 29px;
-        left: 23%;
-        top: 3719px;
-        font-size: 15px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-    }
-
-    .gmail{
-        position: absolute;
-        width: 237px;
-        height: 30px;
-        left: 72px;
-        top: 238em;
-        border-radius: 5px;
-        background-color: #701C7D;
-        z-index: 1;
-        border: #701C7D;
-    }
-
-    .number {
-        position: absolute;
-        width: 170px;
-        height: 30px;
-        right: 27%;
-        top: 241em;
-        border-radius: 5px;
-        background-color: #3ABB56;
-        z-index: 1;
-        border: #3ABB56;
-    }
-
-    #tel{
-        color: #FFFFFF;
-        font-family: Arial;
-    }
-}
-/*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
-    .contactRec{
-        position: relative;
-        width: 100vw;
-        height: 400px;
-        left: 0px;
-        top: 0px;
-        z-index: 1;
-        fill: white;
-    }
-
-    #get{
-        position: absolute;
-        width: 287px;
-        height: 46px;
-        left: 17%;
-        top: 3497px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 18px;
-        margin-bottom: 15px;
-    }
-
-    #let{
-        position: absolute;
-        width: 313px;
-        height: 46px;
-        left: 13%;
-        top: 3527px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 25px;
-    }
-
-    .first{
-        position: absolute;
-        width: 307px;
-        height: 29px;
-        left: 15%;
-        top: 3599px;
-        font-family: 'Arial';
-        font-size: 13px;
-        color: black;
-        z-index: 1;
-    }
-
-    .second{
-        position: absolute;
-        width: 307px;
-        height: 29px;
-        left: 14%;
-        top: 3632px;
-        font-family: 'Arial';
-        font-size: 13px;
-        color: black;
-        z-index: 1;
-    }
-
-    .smallpic{
-        position: absolute;
-        left: 25%;
-        top: 3726px;
-        z-index: 2;
-    }
-
-    .greenCircle{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: 29.5%;
-        top: 3750px;
-        border-radius: 100%;
-        background: #00F461;
-        z-index: 2;
-    }
-
-    .Circle{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 25%;
-        top: 3726px;
-        border-radius: 100%;
-        background: white;
-        z-index: 1;
-    }
-
-    #reply{
-        position: absolute;
-        width: 255px;
-        height: 29px;
-        left: 26%;
-        top: 3719px;
-        font-size: 15px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-    }
-
-    .gmail{
-        position: absolute;
-        width: 237px;
-        height: 30px;
-        left: 92px;
-        top: 237em;
-        border-radius: 5px;
-        background-color: #701C7D;
-        z-index: 1;
-        border: #701C7D;
-    }
-
-    .number {
-        position: absolute;
-        width: 170px;
-        height: 30px;
-        right: 29.5%;
-        top: 240em;
-        border-radius: 5px;
-        background-color: #3ABB56;
-        z-index: 1;
-        border: #3ABB56;
-    }
-
-    #tel{
-        color: #FFFFFF;
-        font-family: Arial;
-    }
-}
-
-/*================================== 768->Tablet ================================== */
-@media all and (min-width: 426px) and (max-width: 768px){
-    .contactRec{
-        position: relative;
-        width: 100vw;
-        height: 400px;
-        left: 0px;
-        top: 0;
-        z-index: 1;
-        fill: white;
-    }
-
-    #get{
-        position: absolute;
-        width: 287px;
-        height: 46px;
-        left: 35%;
-        top: 3122px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 25px;
-        margin-bottom: 15px;
-    }
-
-    #let{
-        position: absolute;
-        width: 512px;
-        height: 46px;
-        left: 21%;
-        top: 3154px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 35px;
-
-    }
-
-    .first{
-        position: absolute;
-        width: 606px;
-        height: 29px;
-        left: 15%;
-        top: 3250px;
-        font-family: 'Arial';
-        font-size: 15px;
-        color: black;
-        z-index: 1;
-    }
-
-    .second{
-        position: absolute;
-        width: 606px;
-        height: 29px;
-        left: 15%;
-        top: 3275px;
-        font-family: 'Arial';
-        font-size: 15px;
-        color: black;
-        z-index: 1;
-    }
-
-    .smallpic{
-        position: absolute;
-        left: 37%;
-        top: 3343px;
-        z-index: 2;
-    }
-
-    .greenCircle{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: 39.5%;
-        top: 3367px;
-        border-radius: 100%;
-        background: #00F461;
-        z-index: 2;
-    }
-
-    .Circle{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 37%;
-        top: 3343px;
-        border-radius: 100%;
-        background: white;
-        z-index: 1;
-    }
-
-    #reply{
-        position: absolute;
-        width: 255px;
-        height: 29px;
-        left: 37.5%;
-        top: 3335px;
-        font-size: 15px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-    }
-
-    .gmail{
-        position: absolute;
-        width: 237px;
-        height: 30px;
-        left: 174px;
-        top: 214em;
-        border-radius: 5px;
-        background-color: #701C7D;
-        z-index: 1;
-        border: #701C7D;
-    }
-
-    .number {
-        position: absolute;
-        width: 170px;
-        height: 30px;
-        right: 19%;
-        top: 214em;
-        border-radius: 5px;
-        background-color: #3ABB56;
-        z-index: 1;
-        border: #3ABB56;
-    }
-
-    #tel{
-        color: #FFFFFF;
-        font-family: Arial;
-    }
-}
-
-/*================================== 1024->Laptop ================================== */
-@media all and (min-width: 769px) and (max-width: 1024px){
-    .contactRec{
-        position: relative;
-        width: 100vw;
-        height: 400px;
-        left: 0px;
-        top: 0;
-        z-index: 1;
-        fill: white;
-    }
-
-    #get{
-        position: absolute;
-        width: 287px;
-        height: 46px;
-        left: 37%;
-        top: 3503px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    #let{
-        position: absolute;
-        width: 600px;
-        height: 46px;
-        left: 21%;
-        top: 3542px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 35px;
-
-    }
-
-    .first{
-        position: absolute;
-        width: 972px;
-        height: 29px;
-        left: 2%;
-        top: 3622px;
-        font-family: 'Arial';
-        font-size: 20px;
-        color: black;
-        z-index: 1;
-    }
-
-    .second{
-        position: absolute;
-        width: 972px;
-        height: 29px;
-        left: 2%;
-        top: 3653px;
-        font-family: 'Arial';
-        font-size: 20px;
-        color: black;
-        z-index: 1;
-    }
-
-    .smallpic{
-        position: absolute;
-        left: 37%;
-        top: 3728px;
-        z-index: 2;
-    }
-
-    .greenCircle{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left:38.5%;
-        top: 3752px;
-        border-radius: 100%;
-        background: #00F461;
-        z-index: 2;
-    }
-
-    .Circle{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 37%;
-        top: 3728px;
-        border-radius: 100%;
-        background: white;
-        z-index: 1;
-    }
-
-    #reply{
-        position: absolute;
-        width: 255px;
-        height: 29px;
-        left: 37.5%;
-        top: 3720px;
-        font-size: 15px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-    }
-
-    .gmail{
-        position: absolute;
-        width: 237px;
-        height: 30px;
-        left: 283px;
-        top: 238em;
-        border-radius: 5px;
-        background-color: #701C7D;
-        z-index: 1;
-        border: #701C7D;
-    }
-
-    .number {
-        position: absolute;
-        width: 170px;
-        height: 30px;
-        right: 27%;
-        top: 238em;
-        border-radius: 5px;
-        background-color: #3ABB56;
-        z-index: 1;
-        border: #3ABB56;
-    }
-
-    #tel{
-        color: #FFFFFF;
-        font-family: Arial;
-    }
-}
-
-/*================================== 1440->Laptop large ================================== */
-@media all and (min-width: 1025px) and (max-width: 1440px){
-    /*Fifth Page*/
-    #fifthPage{
-        height: 400px;
-        background-color: darkblue;
-    }
-
-    .contactRec{
-        position: relative;
-        width: 100vw;
-        height: 400px;
-        left: 0px;
-        top: 0px;
-        z-index: 1;
-        fill: white;
-    }
-
-    #get{
-        position: absolute;
-        width: 287px;
-        height: 46px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 3527px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    #let{
-        position: absolute;
-        width: 600px;
-        height: 46px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 3574px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-        font-size: 35px;
-
-    }
-
-    .first{
-        position: absolute;
-        width: 972px;
-        height: 29px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 3622px;
-        font-family: 'Arial';
-        font-size: 20px;
-        color: black;
-        z-index: 1;
-    }
-
-    .second{
-        position: absolute;
-        width: 972px;
-        height: 29px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 3653px;
-        font-family: 'Arial';
-        font-size: 20px;
-        color: black;
-        z-index: 1;
-    }
-
-    .smallpic{
-        position: absolute;
-        left: 37%;
-        top: 3728px;
-        z-index: 2;
-    }
-
-    .greenCircle{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left:38.5%;
-        top: 3752px;
-        border-radius: 100%;
-        background: #00F461;
-        z-index: 2;
-    }
-
-    .Circle{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 37%;
-        top: 3728px;
-        border-radius: 100%;
-        background: white;
-        z-index: 1;
-    }
-
-    #reply{
-        position: absolute;
-        width: 255px;
-        height: 29px;
-        left: 37.5%;
-        top: 3720px;
-        font-size: 15px;
-        font-family: 'Arial';
-        color: black;
-        z-index: 1;
-    }
-
-    .gmail{
-        position: absolute;
-        width: 237px;
-        height: 30px;
-        left: 460px;
-        top: 238em;
-        border-radius: 5px;
-        background-color: #701C7D;
-        z-index: 1;
-        border: #701C7D;
-    }
-
-    .number {
-        position: absolute;
-        width: 170px;
-        height: 30px;
-        right: 33.5%;
-        top: 238em;
-        border-radius: 5px;
-        background-color: #3ABB56;
-        z-index: 1;
-        border: #3ABB56;
-    }
-
-    #tel{
-        color: #FFFFFF;
-        font-family: Arial;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+/*!*Fifth Page*!*/
+/*#fifthPage{*/
+/*    height: 400px;*/
+/*    !* background-color: darkblue;*!*/
+/*}*/
+
+/*.contactRec{*/
+/*    position: relative;*/
+/*    width: 98.73vw;*/
+/*    height: 400px;*/
+/*    left: 0px;*/
+/*    top: 2500px;*/
+/*    z-index: 1;*/
+/*    fill: black;*/
+/*}*/
+
+/*#get{*/
+/*    position: absolute;*/
+/*    width: 287px;*/
+/*    height: 46px;*/
+/*    left: 39.5%;*/
+/*    top: 2500px;*/
+/*    font-family: 'Arial';*/
+/*    color: blue;*/
+/*    z-index: 1;*/
+/*    font-size: 40px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*#let{*/
+/*    position: absolute;*/
+/*    width: 600px;*/
+/*    height: 46px;*/
+/*    left: 29%;*/
+/*    top: 2700px;*/
+/*    font-family: 'Arial';*/
+/*    color: white;*/
+/*    z-index: 1;*/
+/*    font-size: 25px;*/
+
+/*}*/
+
+
+/*.smallpic{*/
+/*    position: absolute;*/
+/*    left: 37%;*/
+/*    top: 2800px;*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.greenCircle{*/
+/*    position: absolute;*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*    left:38.5%;*/
+/*    top: 2800px;*/
+/*    border-radius: 100%;*/
+/*    background: #00F461;*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.Circle{*/
+/*    position: absolute;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    left: 37%;*/
+/*    top: 2800px;*/
+/*    border-radius: 100%;*/
+/*    background: white;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*#reply{*/
+/*    position: absolute;*/
+/*    width: 255px;*/
+/*    height: 29px;*/
+/*    left: 37.5%;*/
+/*    top: 3000px;*/
+/*    font-size: 15px;*/
+/*    font-family: 'Arial';*/
+/*    color: white;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.gmail{*/
+/*    position: absolute;*/
+/*    width: 237px;*/
+/*    height: 30px;*/
+/*    left: 460px;*/
+/*    top: 2900px;*/
+/*    border-radius: 5px;*/
+/*    background-color: #701C7D;*/
+/*    z-index: 1;*/
+/*    border: #701C7D;*/
+/*}*/
+
+/*.number {*/
+/*    position: absolute;*/
+/*    width: 170px;*/
+/*    height: 30px;*/
+/*    right: 33.5%;*/
+/*    top: 2900px;*/
+/*    border-radius: 5px;*/
+/*    background-color: #3ABB56;*/
+/*    z-index: 1;*/
+/*    border: #3ABB56;*/
+/*}*/
+
+/*#tel{*/
+/*    color: #FFFFFF;*/
+/*    font-family: Arial;*/
+/*}*/
+
+/*!*================================== 320 ->Mobile -S ==================================*!*/
+/*@media all and (width: 320px){*/
+/*    !*Fifth Page*!*/
+
+/*    .contactRec{*/
+/*        position: relative;*/
+/*        width: 100vw;*/
+/*        height: 400px;*/
+/*        left: 0px;*/
+/*        top: 0px;*/
+/*        z-index: 1;*/
+/*        fill: white;*/
+/*    }*/
+
+/*    #get{*/
+/*        position: absolute;*/
+/*        width: 287px;*/
+/*        height: 46px;*/
+/*        left: 7%;*/
+/*        top: 3281px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 16px;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+
+/*    #let{*/
+/*        position: absolute;*/
+/*        width: 289px;*/
+/*        height: 46px;*/
+/*        left: 6%;*/
+/*        top: 3303px;*/
+/*        font-family: 'Arial';*/
+/*        color: white;*/
+/*        z-index: 1;*/
+/*        font-size: 23px;*/
+/*    }*/
+
+/*    .first{*/
+/*        position: absolute;*/
+/*        width: 219px;*/
+/*        height: 29px;*/
+/*        left: 16%;*/
+/*        top: 3359px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 11px;*/
+/*        color: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .second{*/
+/*        position: absolute;*/
+/*        width: 219px;*/
+/*        height: 29px;*/
+/*        left: 16%;*/
+/*        top: 3385px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 11px;*/
+/*        color: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .smallpic{*/
+/*        position: absolute;*/
+/*        left: 23%;*/
+/*        top: 3430px;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .greenCircle{*/
+/*        position: absolute;*/
+/*        width: 10px;*/
+/*        height: 10px;*/
+/*        left: 29%;*/
+/*        top: 3455px;*/
+/*        border-radius: 100%;*/
+/*        background: #00F461;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .Circle{*/
+/*        position: absolute;*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*        left: 23%;*/
+/*        top: 3430px;*/
+/*        border-radius: 100%;*/
+/*        background: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    #reply{*/
+/*        position: absolute;*/
+/*        width: 255px;*/
+/*        height: 29px;*/
+/*        left: 17%;*/
+/*        top: 3429px;*/
+/*        font-size: 12px;*/
+/*        font-family: 'Arial';*/
+/*        color: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .gmail{*/
+/*        position: absolute;*/
+/*        width: 219px;*/
+/*        height: 39px;*/
+/*        left: 51px;*/
+/*        top: 219em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #701C7D;*/
+/*        z-index: 1;*/
+/*        border: #701C7D;*/
+/*    }*/
+
+/*    .number {*/
+/*        position: absolute;*/
+/*        width: 170px;*/
+/*        height: 30px;*/
+/*        right: 23%;*/
+/*        top: 223em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #3ABB56;*/
+/*        z-index: 1;*/
+/*        border: #3ABB56;*/
+/*    }*/
+
+/*    #tel{*/
+/*        color: #FFFFFF;*/
+/*        font-family: Arial;*/
+/*        font-size: 13px;*/
+/*    }*/
+
+/*    #email{*/
+/*        font-size: 13px;*/
+/*    }*/
+/*}*/
+
+/*!*================================== 375 ->Mobile -M ==================================*!*/
+/*@media all and (min-width: 321px) and (max-width: 375px) {*/
+/*    .contactRec{*/
+/*        position: relative;*/
+/*        width: 100vw;*/
+/*        height: 400px;*/
+/*        left: 0px;*/
+/*        top: 0px;*/
+/*        z-index: 1;*/
+/*        fill: white;*/
+/*    }*/
+
+/*    #get{*/
+/*        position: absolute;*/
+/*        width: 287px;*/
+/*        height: 46px;*/
+/*        left: 14%;*/
+/*        top: 3532px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 18px;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+
+/*    #let{*/
+/*        position: absolute;*/
+/*        width: 289px;*/
+/*        height: 46px;*/
+/*        left: 13%;*/
+/*        top: 3566px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 23px;*/
+/*    }*/
+
+/*    .first{*/
+/*        position: absolute;*/
+/*        width: 270px;*/
+/*        height: 29px;*/
+/*        left: 15%;*/
+/*        top: 3630px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 13px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .second{*/
+/*        position: absolute;*/
+/*        width: 276px;*/
+/*        height: 29px;*/
+/*        left: 14%;*/
+/*        top: 3660px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 13px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .smallpic{*/
+/*        position: absolute;*/
+/*        left: 25%;*/
+/*        top: 3726px;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .greenCircle{*/
+/*        position: absolute;*/
+/*        width: 10px;*/
+/*        height: 10px;*/
+/*        left: 29.5%;*/
+/*        top: 3750px;*/
+/*        border-radius: 100%;*/
+/*        background: #00F461;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .Circle{*/
+/*        position: absolute;*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*        left: 25%;*/
+/*        top: 3726px;*/
+/*        border-radius: 100%;*/
+/*        background: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    #reply{*/
+/*        position: absolute;*/
+/*        width: 255px;*/
+/*        height: 29px;*/
+/*        left: 23%;*/
+/*        top: 3719px;*/
+/*        font-size: 15px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .gmail{*/
+/*        position: absolute;*/
+/*        width: 237px;*/
+/*        height: 30px;*/
+/*        left: 72px;*/
+/*        top: 238em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #701C7D;*/
+/*        z-index: 1;*/
+/*        border: #701C7D;*/
+/*    }*/
+
+/*    .number {*/
+/*        position: absolute;*/
+/*        width: 170px;*/
+/*        height: 30px;*/
+/*        right: 27%;*/
+/*        top: 241em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #3ABB56;*/
+/*        z-index: 1;*/
+/*        border: #3ABB56;*/
+/*    }*/
+
+/*    #tel{*/
+/*        color: #FFFFFF;*/
+/*        font-family: Arial;*/
+/*    }*/
+/*}*/
+/*!*================================== 425->Mobile -L ================================== *!*/
+/*@media all and (min-width: 376px) and (max-width: 425px){*/
+/*    .contactRec{*/
+/*        position: relative;*/
+/*        width: 100vw;*/
+/*        height: 400px;*/
+/*        left: 0px;*/
+/*        top: 0px;*/
+/*        z-index: 1;*/
+/*        fill: white;*/
+/*    }*/
+
+/*    #get{*/
+/*        position: absolute;*/
+/*        width: 287px;*/
+/*        height: 46px;*/
+/*        left: 17%;*/
+/*        top: 3497px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 18px;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+
+/*    #let{*/
+/*        position: absolute;*/
+/*        width: 313px;*/
+/*        height: 46px;*/
+/*        left: 13%;*/
+/*        top: 3527px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 25px;*/
+/*    }*/
+
+/*    .first{*/
+/*        position: absolute;*/
+/*        width: 307px;*/
+/*        height: 29px;*/
+/*        left: 15%;*/
+/*        top: 3599px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 13px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .second{*/
+/*        position: absolute;*/
+/*        width: 307px;*/
+/*        height: 29px;*/
+/*        left: 14%;*/
+/*        top: 3632px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 13px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .smallpic{*/
+/*        position: absolute;*/
+/*        left: 25%;*/
+/*        top: 3726px;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .greenCircle{*/
+/*        position: absolute;*/
+/*        width: 10px;*/
+/*        height: 10px;*/
+/*        left: 29.5%;*/
+/*        top: 3750px;*/
+/*        border-radius: 100%;*/
+/*        background: #00F461;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .Circle{*/
+/*        position: absolute;*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*        left: 25%;*/
+/*        top: 3726px;*/
+/*        border-radius: 100%;*/
+/*        background: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    #reply{*/
+/*        position: absolute;*/
+/*        width: 255px;*/
+/*        height: 29px;*/
+/*        left: 26%;*/
+/*        top: 3719px;*/
+/*        font-size: 15px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .gmail{*/
+/*        position: absolute;*/
+/*        width: 237px;*/
+/*        height: 30px;*/
+/*        left: 92px;*/
+/*        top: 237em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #701C7D;*/
+/*        z-index: 1;*/
+/*        border: #701C7D;*/
+/*    }*/
+
+/*    .number {*/
+/*        position: absolute;*/
+/*        width: 170px;*/
+/*        height: 30px;*/
+/*        right: 29.5%;*/
+/*        top: 240em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #3ABB56;*/
+/*        z-index: 1;*/
+/*        border: #3ABB56;*/
+/*    }*/
+
+/*    #tel{*/
+/*        color: #FFFFFF;*/
+/*        font-family: Arial;*/
+/*    }*/
+/*}*/
+
+/*!*================================== 768->Tablet ================================== *!*/
+/*@media all and (min-width: 426px) and (max-width: 768px){*/
+/*    .contactRec{*/
+/*        position: relative;*/
+/*        width: 100vw;*/
+/*        height: 400px;*/
+/*        left: 0px;*/
+/*        top: 0;*/
+/*        z-index: 1;*/
+/*        fill: white;*/
+/*    }*/
+
+/*    #get{*/
+/*        position: absolute;*/
+/*        width: 287px;*/
+/*        height: 46px;*/
+/*        left: 35%;*/
+/*        top: 3122px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 25px;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+
+/*    #let{*/
+/*        position: absolute;*/
+/*        width: 512px;*/
+/*        height: 46px;*/
+/*        left: 21%;*/
+/*        top: 3154px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 35px;*/
+
+/*    }*/
+
+/*    .first{*/
+/*        position: absolute;*/
+/*        width: 606px;*/
+/*        height: 29px;*/
+/*        left: 15%;*/
+/*        top: 3250px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 15px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .second{*/
+/*        position: absolute;*/
+/*        width: 606px;*/
+/*        height: 29px;*/
+/*        left: 15%;*/
+/*        top: 3275px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 15px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .smallpic{*/
+/*        position: absolute;*/
+/*        left: 37%;*/
+/*        top: 3343px;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .greenCircle{*/
+/*        position: absolute;*/
+/*        width: 10px;*/
+/*        height: 10px;*/
+/*        left: 39.5%;*/
+/*        top: 3367px;*/
+/*        border-radius: 100%;*/
+/*        background: #00F461;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .Circle{*/
+/*        position: absolute;*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*        left: 37%;*/
+/*        top: 3343px;*/
+/*        border-radius: 100%;*/
+/*        background: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    #reply{*/
+/*        position: absolute;*/
+/*        width: 255px;*/
+/*        height: 29px;*/
+/*        left: 37.5%;*/
+/*        top: 3335px;*/
+/*        font-size: 15px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .gmail{*/
+/*        position: absolute;*/
+/*        width: 237px;*/
+/*        height: 30px;*/
+/*        left: 174px;*/
+/*        top: 214em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #701C7D;*/
+/*        z-index: 1;*/
+/*        border: #701C7D;*/
+/*    }*/
+
+/*    .number {*/
+/*        position: absolute;*/
+/*        width: 170px;*/
+/*        height: 30px;*/
+/*        right: 19%;*/
+/*        top: 214em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #3ABB56;*/
+/*        z-index: 1;*/
+/*        border: #3ABB56;*/
+/*    }*/
+
+/*    #tel{*/
+/*        color: #FFFFFF;*/
+/*        font-family: Arial;*/
+/*    }*/
+/*}*/
+
+/*!*================================== 1024->Laptop ================================== *!*/
+/*@media all and (min-width: 769px) and (max-width: 1024px){*/
+/*    .contactRec{*/
+/*        position: relative;*/
+/*        width: 100vw;*/
+/*        height: 400px;*/
+/*        left: 0px;*/
+/*        top: 0;*/
+/*        z-index: 1;*/
+/*        fill: white;*/
+/*    }*/
+
+/*    #get{*/
+/*        position: absolute;*/
+/*        width: 287px;*/
+/*        height: 46px;*/
+/*        left: 37%;*/
+/*        top: 3503px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 30px;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+
+/*    #let{*/
+/*        position: absolute;*/
+/*        width: 600px;*/
+/*        height: 46px;*/
+/*        left: 21%;*/
+/*        top: 3542px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 35px;*/
+
+/*    }*/
+
+/*    .first{*/
+/*        position: absolute;*/
+/*        width: 972px;*/
+/*        height: 29px;*/
+/*        left: 2%;*/
+/*        top: 3622px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 20px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .second{*/
+/*        position: absolute;*/
+/*        width: 972px;*/
+/*        height: 29px;*/
+/*        left: 2%;*/
+/*        top: 3653px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 20px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .smallpic{*/
+/*        position: absolute;*/
+/*        left: 37%;*/
+/*        top: 3728px;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .greenCircle{*/
+/*        position: absolute;*/
+/*        width: 10px;*/
+/*        height: 10px;*/
+/*        left:38.5%;*/
+/*        top: 3752px;*/
+/*        border-radius: 100%;*/
+/*        background: #00F461;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .Circle{*/
+/*        position: absolute;*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*        left: 37%;*/
+/*        top: 3728px;*/
+/*        border-radius: 100%;*/
+/*        background: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    #reply{*/
+/*        position: absolute;*/
+/*        width: 255px;*/
+/*        height: 29px;*/
+/*        left: 37.5%;*/
+/*        top: 3720px;*/
+/*        font-size: 15px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .gmail{*/
+/*        position: absolute;*/
+/*        width: 237px;*/
+/*        height: 30px;*/
+/*        left: 283px;*/
+/*        top: 238em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #701C7D;*/
+/*        z-index: 1;*/
+/*        border: #701C7D;*/
+/*    }*/
+
+/*    .number {*/
+/*        position: absolute;*/
+/*        width: 170px;*/
+/*        height: 30px;*/
+/*        right: 27%;*/
+/*        top: 238em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #3ABB56;*/
+/*        z-index: 1;*/
+/*        border: #3ABB56;*/
+/*    }*/
+
+/*    #tel{*/
+/*        color: #FFFFFF;*/
+/*        font-family: Arial;*/
+/*    }*/
+/*}*/
+
+/*!*================================== 1440->Laptop large ================================== *!*/
+/*@media all and (min-width: 1025px) and (max-width: 1440px){*/
+/*    !*Fifth Page*!*/
+/*    #fifthPage{*/
+/*        height: 400px;*/
+/*        background-color: darkblue;*/
+/*    }*/
+
+/*    .contactRec{*/
+/*        position: relative;*/
+/*        width: 100vw;*/
+/*        height: 400px;*/
+/*        left: 0px;*/
+/*        top: 0px;*/
+/*        z-index: 1;*/
+/*        fill: white;*/
+/*    }*/
+
+/*    #get{*/
+/*        position: absolute;*/
+/*        width: 287px;*/
+/*        height: 46px;*/
+/*        left: 0;*/
+/*        right: 0;*/
+/*        margin: auto;*/
+/*        top: 3527px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 30px;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+
+/*    #let{*/
+/*        position: absolute;*/
+/*        width: 600px;*/
+/*        height: 46px;*/
+/*        left: 0;*/
+/*        right: 0;*/
+/*        margin: auto;*/
+/*        top: 3574px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*        font-size: 35px;*/
+
+/*    }*/
+
+/*    .first{*/
+/*        position: absolute;*/
+/*        width: 972px;*/
+/*        height: 29px;*/
+/*        left: 0;*/
+/*        right: 0;*/
+/*        margin: auto;*/
+/*        top: 3622px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 20px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .second{*/
+/*        position: absolute;*/
+/*        width: 972px;*/
+/*        height: 29px;*/
+/*        left: 0;*/
+/*        right: 0;*/
+/*        margin: auto;*/
+/*        top: 3653px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 20px;*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .smallpic{*/
+/*        position: absolute;*/
+/*        left: 37%;*/
+/*        top: 3728px;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .greenCircle{*/
+/*        position: absolute;*/
+/*        width: 10px;*/
+/*        height: 10px;*/
+/*        left:38.5%;*/
+/*        top: 3752px;*/
+/*        border-radius: 100%;*/
+/*        background: #00F461;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .Circle{*/
+/*        position: absolute;*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*        left: 37%;*/
+/*        top: 3728px;*/
+/*        border-radius: 100%;*/
+/*        background: white;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    #reply{*/
+/*        position: absolute;*/
+/*        width: 255px;*/
+/*        height: 29px;*/
+/*        left: 37.5%;*/
+/*        top: 3720px;*/
+/*        font-size: 15px;*/
+/*        font-family: 'Arial';*/
+/*        color: black;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .gmail{*/
+/*        position: absolute;*/
+/*        width: 237px;*/
+/*        height: 30px;*/
+/*        left: 460px;*/
+/*        top: 238em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #701C7D;*/
+/*        z-index: 1;*/
+/*        border: #701C7D;*/
+/*    }*/
+
+/*    .number {*/
+/*        position: absolute;*/
+/*        width: 170px;*/
+/*        height: 30px;*/
+/*        right: 33.5%;*/
+/*        top: 238em;*/
+/*        border-radius: 5px;*/
+/*        background-color: #3ABB56;*/
+/*        z-index: 1;*/
+/*        border: #3ABB56;*/
+/*    }*/
+
+/*    #tel{*/
+/*        color: #FFFFFF;*/
+/*        font-family: Arial;*/
+/*    }*/
+/*}*/
