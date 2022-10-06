@@ -5,7 +5,7 @@
     top: 3450px;
     height: 800px;
     width: 76vw;
-    background-color: black;
+    background-color:#528deb;
     margin-left: 100px;
     margin-bottom: 100px;
     align-items: center;
@@ -23,10 +23,10 @@
 }
 
 .smallpic{
-    
+
     position: absolute;
     left: 50%;
-    top: 192px;
+    top: 322px;
     z-index: 2;
     border-radius: 80px;
 }
@@ -36,7 +36,7 @@
     width: 10px;
     height: 10px;
     left:50%;
-    top: 192px;
+    top: 322px;
     border-radius: 100%;
     background: #00F461;
     z-index: 2;
@@ -47,10 +47,58 @@
     width: 30px;
     height: 30px;
     left: 50%;
-    top: 192px;
+    top: 322px;
     border-radius: 100%;
     background: white;
     z-index: 1;
+}
+
+#msg{
+    position: absolute;
+    top:450px;
+    left: 15%;
+    color: #373636;
+
+}
+
+.gmail{
+
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 260px;
+    top: 300px;
+    border-radius: 5px;
+    background-color: saddlebrown;
+    z-index: 1;
+    border: darkblue;
+}
+
+.number {
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    right: 20.5%;
+    top: 300px;
+    border-radius: 5px;
+    background-color: #3ABB56;
+    z-index: 1;
+    border: #3ABB56;
+}
+
+.mailpic{
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    left: 100px;
+
+}
+
+.phnpic{
+    position: absolute;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    right: 100px;
 }
 
 /*.contactRec {*/
