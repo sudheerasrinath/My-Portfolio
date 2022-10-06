@@ -26,27 +26,49 @@
     top: 400px;
     left: 100px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top:6px green solid;
+    border-right:6px green solid;
+    border-bottom :6px green solid;
+    border-left:6px green solid;
+
+
 
 
 }
 
 .hms{
+    top:420px;
     position: absolute;
     right: 550px;
-    
+    border-top:6px green solid;
+    border-right:6px green solid;
+    border-bottom :6px green solid;
+    border-left:6px green solid;
+
+
 }
 
 .ca{
     position: absolute;
     top: 400px;
     right: 150px;
+    border-top:6px green solid;
+    border-right:6px green solid;
+    border-bottom :6px green solid;
+    border-left:6px green solid;
+
 
 }
 
 .more-projects{
     position: absolute;
-    top: 550px;
+    top: 750px;
     right: 650px;
-    color: #0a58ca;
+    color: floralwhite;
+    height: 50px;
+    width: 150px;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #ff253a;
 
 }
