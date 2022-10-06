@@ -20,6 +20,9 @@
 
 .about-text{
     width:500px ;
+    color: #FFFFFF;
+    font-size: 40px;
+
 }
 
 .about-text p:nth-child(1){
