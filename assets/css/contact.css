@@ -1,23 +1,45 @@
-.contactRec {
+@charset "utf -8";
+#chart4{
+    position: absolute;
+    top: 3250px;
+    height: 800px;
+    width: 76vw;
+    background-color: orange;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+
+}/*css Document*/
+
+
+#myprojects{
     position: relative;
-    width: 68.73vw;
-    height: 300px;
-    left: 200px;
-    top: 1500px;
-    z-index: 1;
-    fill: gray;
-}
-
-
-#comments{
     font-family: Arial;
-    position: relative;
-    top: 1000px;
-    left: 100px;
     color: blue;
+    margin-left: 25px;
+    margin-top: 25px;
     font-size: 75px;
-
 }
+/*.contactRec {*/
+/*    position: relative;*/
+/*    width: 68.73vw;*/
+/*    height: 00px;*/
+/*    left: 200px;*/
+/*    top: 3000px;*/
+/*    z-index: 1;*/
+/*    fill: gray;*/
+/*}*/
+
+
+/*#comments{*/
+/*    font-family: Arial;*/
+/*    position: relative;*/
+/*    top: 1000px;*/
+/*    left: 100px;*/
+/*    color: blue;*/
+/*    font-size: 75px;*/
+
+/*}*/
 
 
 

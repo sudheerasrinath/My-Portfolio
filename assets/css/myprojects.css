@@ -1,16 +1,22 @@
+@charset "utf -8";
 #chart3{
     position: absolute;
-    top: 2950px;
-    height: 90vh;
+    top: 2550px;
+    height: 500px;
     width: 76vw;
-    background-color: black;
+    background-color: darkgrey;
     margin-left: 100px;
+    margin-bottom: 100px;
     align-items: center;
 
-}
-#tool {
+}/*css Document*/
+
+
+#myprojects{
+    position: relative;
     font-family: Arial;
     color: blue;
     margin-left: 25px;
+    margin-top: 25px;
     font-size: 75px;
 }
