@@ -71,7 +71,7 @@
     border-radius: 5px;
     background-color: saddlebrown;
     z-index: 1;
-    border: darkblue;
+    border: saddlebrown;
 }
 
 .number {
@@ -99,6 +99,12 @@
     border-radius: 5px;
     border-color: #FFFFFF;
     right: 100px;
+}
+
+#ar{
+    position: absolute;
+    top: 750px;
+    right: 50px;
 }
 
 /*.contactRec {*/
