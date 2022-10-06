@@ -2,7 +2,7 @@
 #chart3{
     position: absolute;
     top: 2550px;
-    height: 500px;
+    height: 800px;
     width: 76vw;
     background-color: darkgrey;
     margin-left: 100px;
@@ -19,4 +19,23 @@
     margin-left: 25px;
     margin-top: 25px;
     font-size: 75px;
+}
+
+.cps{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.hms{
+    position: absolute;
+    right: 550px;
+    
+}
+
+.ca{
+    position: absolute;
+    top: 400px;
+    right: 150px;
+    
 }
