@@ -64,26 +64,29 @@
 .gmail{
 
     position: absolute;
-    width: 255px;
+    width: 330px;
     height: 50px;
     left: 260px;
     top: 300px;
     border-radius: 5px;
     background-color: saddlebrown;
     z-index: 1;
-    border: saddlebrown;
+    font-size: 20px;
+    border: 5px white solid;
 }
 
 .number {
     position: absolute;
-    width: 170px;
+    width: 230px;
     height: 50px;
     right: 20.5%;
     top: 300px;
     border-radius: 5px;
     background-color: #3ABB56;
+    font-size: 20px ;
+    font
     z-index: 1;
-    border: #3ABB56;
+    border:5px white solid;
 }
 
 .mailpic{
