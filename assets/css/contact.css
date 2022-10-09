@@ -5,7 +5,7 @@
     top: 3450px;
     height: 800px;
     width: 76vw;
-    background-color:#528deb;
+    background-color:midnightblue;
     margin-left: 100px;
     margin-bottom: 100px;
     align-items: center;
@@ -16,7 +16,7 @@
 #contactme{
     position: relative;
     font-family: Arial;
-    color: blue;
+    color: rgba(66, 106, 112, 0.8);
     margin-left: 25px;
     margin-top: 25px;
     font-size: 75px;
@@ -84,7 +84,6 @@
     border-radius: 5px;
     background-color: #3ABB56;
     font-size: 20px ;
-    font
     z-index: 1;
     border:5px white solid;
 }
