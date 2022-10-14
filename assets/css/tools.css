@@ -143,7 +143,10 @@
 
     }
 
-   
+    .toolPic{
+        height: 150px;
+        width: 600px;
+    }
 }
 
 
