@@ -966,26 +966,6 @@ button:active{
         transform:scale(1.1) ;
     }
 
-    .model{
-        height:280px;
-        position:absolute ;
-        bottom:260px;
-        left:80%;
-        border-radius:150px;
-
-
-    }
-
-
-
-
-
-
-    .Bottom{
-        background-size: auto;
-        background-color: black;
-    }
-}
 
 
 @media all and (width: 1440px) {
