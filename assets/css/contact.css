@@ -105,8 +105,9 @@
 
 #ar{
     position: absolute;
-    top: 750px;
+    top: 650px;
     right: 50px;
+    color: #FFFFFF;
 }
 
 /*.contactRec {*/

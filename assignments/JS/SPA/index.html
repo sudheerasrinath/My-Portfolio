@@ -694,6 +694,53 @@
         </div>
     </section>
 </main>
+<script src="../../../assets/js/jquery-3.6.1.min.js"></script>
+<script src="../../../assets/boostrap/js/bootstrap.min.js"></script>
+<script>
+    $('#dashboardList').click(function (){
+        $('#dashboard').css('display','block');
+        $('#order').css('display','none');
+        $('#items').css('display','none');
+        $('#customer').css('display','none');
+        $('#dashboardList').css({ 'font-weight': 'bold','color':'white'});
+        $('#customersList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#itemList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#orderList').css({ 'font-weight': 'none','color':'C5E1D4'});
+
+    });
+
+    $('#orderList').click(function (){
+        $('#dashboard').css('display','none');
+        $('#order').css('display','block');
+        $('#items').css('display','none');
+        $('#customer').css('display','none');
+        $('#dashboardList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#customersList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#itemList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#orderList').css({ 'font-weight': 'bold','color':'white'});
+    });
+
+    $('#itemList').click(function (){
+        $('#dashboard').css('display','none');
+        $('#order').css('display','none');
+        $('#items').css('display','block');
+        $('#customer').css('display','none');
+        $('#dashboardList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#customersList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#itemList').css({ 'font-weight': 'bold','color':'white'});
+        $('#orderList').css({ 'font-weight': 'none','color':'C5E1D4'});
+    });
+
+    $('#customersList').click(function (){
+        $('#dashboard').css('display','none');
+        $('#order').css('display','none');
+        $('#items').css('display','none');
+        $('#customer').css('display','block');
+        $('#dashboardList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#customersList').css({ 'font-weight': 'bold','color':'white'});
+        $('#itemList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#orderList').css({ 'font-weight': 'none','color':'C5E1D4'});
+});
 
 
 </script>
