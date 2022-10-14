@@ -96,7 +96,12 @@
 
 }
 
-
+.phnpic{
+    position: absolute;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    right: 100px;
+}
 
 #ar{
     position: absolute;
