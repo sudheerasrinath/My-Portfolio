@@ -24,7 +24,7 @@ section{
 }
 
 nav {
-    position: fixed;
+
     width: 100%;
     position: absolute;
     display:flex;
@@ -36,12 +36,12 @@ nav {
 }
 
 nav ul{
-    position: relative;
+
     display: flex;
 }
 
 nav ul li a{
-    position: relative;
+
     margin: 30px;
     font-family: myriad pro regular;
     color: #505050;
@@ -250,7 +250,7 @@ button:active{
         font-family: Calibri;
         font-weight: bold;
         color: white;
-        font-size:30px;
+        font-size:20px;
         bottom:100px;
 
     }
@@ -267,7 +267,7 @@ button:active{
     .text-container p:nth-child(3){
         font-family: "myriad pro regular";
         color: #2cddff;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 30px;
 
 
@@ -294,7 +294,7 @@ button:active{
         font-weight: bold;
         font-size: 20px;
         outline: none;
-        margin:0px 20px;
+        margin:0px 10px;
 
     }
 
@@ -321,8 +321,8 @@ button:active{
     .model{
         height:100px;
         position:absolute ;
-        bottom:370px;
-        left:75%;
+        bottom:320px;
+        left:80%;
         border-radius:100px;
 
 

@@ -194,36 +194,38 @@
     }
 
 
-    .softwareset {
-        margin-left: 100px;
-        margin-top: -13px;
-        font-size: 18px;
+    /*.softwareset {*/
+    /*    margin-left: 100px;*/
+    /*    margin-top: -13px;*/
+    /*    font-size: 18px;*/
+    /*    top: 3000px;*/
 
 
-    }
+    /*}*/
 
-    .software {
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        display: inline-block;
-        border-bottom: 3px solid white;
-    }
+    /*.software {*/
+    /*    color: white;*/
+    /*    text-decoration: none;*/
+    /*    text-transform: uppercase;*/
+    /*    font-weight: bold;*/
+    /*    display: inline-block;*/
+    /*    border-bottom: 3px solid white;*/
+    /*}*/
 
-    .softwarelist {
-        color: white;
-        list-style-type: none;
-        margin-left: -40px;
-    }
+    /*.softwarelist {*/
+    /*    color: white;*/
+    /*    list-style-type: none;*/
+    /*    margin-left: -40px;*/
 
-    #tool {
-        font-family: Arial;
-        color: blue;
-        margin-left: 75px;
-        font-size: 75px;
+    /*}*/
 
-    }
+    /*#tool {*/
+    /*    font-family: Arial;*/
+    /*    color: blue;*/
+    /*    margin-left: 75px;*/
+    /*    font-size: 75px;*/
+
+    /*}*/
 }
 
 @media all and (width: 375px) {
@@ -306,36 +308,38 @@
     }
 
 
-    .softwareset {
-        margin-left: 100px;
-        margin-top: -13px;
-        font-size: 18px;
+    /*.softwareset {*/
+    /*    margin-left: 100px;*/
+    /*    margin-top: -13px;*/
+    /*    font-size: 18px;*/
+    /*    top: 3000px;*/
 
 
-    }
+    /*}*/
 
-    .software {
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        display: inline-block;
-        border-bottom: 3px solid white;
-    }
+    /*.software {*/
+    /*    color: white;*/
+    /*    text-decoration: none;*/
+    /*    text-transform: uppercase;*/
+    /*    font-weight: bold;*/
+    /*    display: inline-block;*/
+    /*    border-bottom: 3px solid white;*/
+    /*}*/
 
-    .softwarelist {
-        color: white;
-        list-style-type: none;
-        margin-left: -40px;
-    }
+    /*.softwarelist {*/
+    /*    color: white;*/
+    /*    list-style-type: none;*/
+    /*    margin-left: -40px;*/
 
-    #tool {
-        font-family: Arial;
-        color: blue;
-        margin-left: 75px;
-        font-size: 75px;
+    /*}*/
 
-    }
+    /*#tool {*/
+    /*    font-family: Arial;*/
+    /*    color: blue;*/
+    /*    margin-left: 75px;*/
+    /*    font-size: 75px;*/
+
+    /*}*/
 }
 
 @media all and (width: 425px) {
