@@ -351,6 +351,7 @@ button:active{
 
     body{
         background-color:#000000;
+        width: 320px;
 
 
     }
@@ -376,7 +377,7 @@ button:active{
         justify-content: space-between;
         align-items: center;
         height: 50px;
-        width: 480px;
+        width: 320px;
         background-color: #FFFFFF;
         box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     }
@@ -386,11 +387,12 @@ button:active{
     }
 
     nav ul li a{
-        margin: 20px;
+        margin: 5px;
         font-family: myriad pro regular;
         color: #505050;
-        font-size:15px;
-        font-weight:500;
+        font-size:10px;
+        font-weight:400;
+
 
     }
 
@@ -407,12 +409,13 @@ button:active{
     .active{
         font-weight: bold;
         color:#2d2a2a;
+
     }
     .text-container p:nth-child(1){
         font-family: Calibri;
         font-weight: bold;
         color: white;
-        font-size:30px;
+        font-size:20px;
         bottom:100px;
 
     }
@@ -429,8 +432,9 @@ button:active{
     .text-container p:nth-child(3){
         font-family: "myriad pro regular";
         color: #2cddff;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 30px;
+
 
     }
     .text-container p{
@@ -455,7 +459,7 @@ button:active{
         font-weight: bold;
         font-size: 20px;
         outline: none;
-        margin:0px 20px;
+        margin:0px 10px;
 
     }
 
@@ -480,14 +484,16 @@ button:active{
     }
 
     .model{
-        height:150px;
+        height:100px;
         position:absolute ;
-        bottom:300px;
-        left:100%;
+        bottom:320px;
+        left:80%;
         border-radius:100px;
 
 
     }
+
+
 
 
 
@@ -730,7 +736,7 @@ button:active{
         font-family: Calibri;
         font-weight: bold;
         color: white;
-        font-size:30px;
+        font-size:20px;
         bottom:100px;
 
     }
@@ -747,7 +753,7 @@ button:active{
     .text-container p:nth-child(3){
         font-family: "myriad pro regular";
         color: #2cddff;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 30px;
 
     }
