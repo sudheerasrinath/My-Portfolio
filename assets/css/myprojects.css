@@ -1,4 +1,13 @@
-
+@charset "utf -8";
+#chart3{
+    position: absolute;
+    top: 2550px;
+    height: 800px;
+    width: 76vw;
+    background-color: black;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    align-items: center;
 
 }/*css Document*/
 
