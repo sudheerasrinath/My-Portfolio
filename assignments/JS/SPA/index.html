@@ -562,26 +562,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg col-sm-6">
-                    <div class="p-2 rounded-3 bg-success text-light fw-bolder">Item Details</div>
-                    <div class="px-2 rounded-3 mt-4 p-3 border mb-lg-0 mb-sm-4 mb-4 shadow-sm">
-                        <div class="row gx-3">
-                            <div class="col">
-                                <div class="mb-4">
-                                    <label for="itemId" class="form-label">Item ID</label>
-                                    <select class="form-select form-select-ls" id="itmId" aria-label=".form-select-lg example">
-                                        <option selected>P001</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-4">
-                                    <label for="item" class="form-label">Item</label>
-                                    <input type="text" class="form-control" id="item" placeholder="Soap">
-                                </div>
-                            </div>
-                        </div>
-
+               
                         <div class="row gx-3">
                             <div class="col">
                                 <div class="mb-4">
@@ -709,6 +690,37 @@
 
     });
 
+    $('#orderList').click(function (){
+        $('#dashboard').css('display','none');
+        $('#order').css('display','block');
+        $('#items').css('display','none');
+        $('#customer').css('display','none');
+        $('#dashboardList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#customersList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#itemList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#orderList').css({ 'font-weight': 'bold','color':'white'});
+    });
+
+    $('#itemList').click(function (){
+        $('#dashboard').css('display','none');
+        $('#order').css('display','none');
+        $('#items').css('display','block');
+        $('#customer').css('display','none');
+        $('#dashboardList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#customersList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#itemList').css({ 'font-weight': 'bold','color':'white'});
+        $('#orderList').css({ 'font-weight': 'none','color':'C5E1D4'});
+    });
+
+    $('#customersList').click(function (){
+        $('#dashboard').css('display','none');
+        $('#order').css('display','none');
+        $('#items').css('display','none');
+        $('#customer').css('display','block');
+        $('#dashboardList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#customersList').css({ 'font-weight': 'bold','color':'white'});
+        $('#itemList').css({ 'font-weight': 'none','color':'C5E1D4'});
+        $('#orderList').css({ 'font-weight': 'none','color':'C5E1D4'});
 });
 
 
