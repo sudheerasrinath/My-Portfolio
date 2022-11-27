@@ -57,3 +57,17 @@
     background-repeat: no-repeat;
     background-size: 50px 100px;
 }
+
+.score{
+    position:absolute;
+    top:15px;
+    left:40px;
+    background: darkblue;
+    height:50px;
+    width:120px;
+    text-align:center;
+    font-size: 1.5em;
+    color:white;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+}
