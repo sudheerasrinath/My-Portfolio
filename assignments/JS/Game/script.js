@@ -26,3 +26,14 @@ function isCollide(a,b){
     return !((aRect.bottom<bRect.top)||(aRect.top>bRect.bottom)||(aRect.right<bRect.left)||(aRect.left>bRect.right))
 }
 
+function moveLines(){
+    let lines=document.querySelectorAll('.lines');
+    lines.forEach(function(item){
+        if(item.y >=650){
+            item.y-=740;
+        }
+        item.y+=player.speed;
+        item.style.top=item.y+"px";
+    })
+}
+
