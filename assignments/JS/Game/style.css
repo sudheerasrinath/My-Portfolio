@@ -7,6 +7,14 @@
     display:none;
 }
 
+#topic{
+    color: aqua;
+}
+
+#start{
+    color: red;
+}
+
 .car {
     height: 120px;
     border-radius: 10px;
@@ -64,7 +72,7 @@
     left:40px;
     background: darkblue;
     height:50px;
-    width:120px;
+    width:200px;
     text-align:center;
     font-size: 1.5em;
     color:white;
