@@ -43,3 +43,8 @@ function endGame(){
     startScreen.innerHTML="<b>Game Over</b> <br> Final score:"+player.score+" "+"<br><b>Press again to restart</b>";
 }
 
+function moveEnemy(car){
+
+
+}
+
