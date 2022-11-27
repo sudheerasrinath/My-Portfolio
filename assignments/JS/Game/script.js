@@ -45,6 +45,12 @@ function endGame(){
 
 function moveEnemy(car){
 
+    let enemy=document.querySelectorAll('.enemy');
+    enemy.forEach(function(item){
 
+        if(isCollide(car,item)){
+            console.log("Bang!");
+            endGame();
+        }
 }
 
