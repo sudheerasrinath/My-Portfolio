@@ -71,4 +71,7 @@ function gamePlay(){
         moveEnemy(car);
     }
 }
+if(keys.ArrowUp && player.y>(road.top+70)){
+    player.y-=player.speed
+}
 
