@@ -52,5 +52,13 @@ function moveEnemy(car){
             console.log("Bang!");
             endGame();
         }
+
+    if(item.y >=750){
+        item.y=-300;
+        item.style.left=Math.floor(Math.random()*350)+"px";
+    }
+    item.y+=player.speed;
+    item.style.top=item.y+"px";
+})
 }
 
