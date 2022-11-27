@@ -37,3 +37,9 @@ function moveLines(){
     })
 }
 
+function endGame(){
+    player.start=false;
+    startScreen.classList.remove('hide');
+    startScreen.innerHTML="<b>Game Over</b> <br> Final score:"+player.score+" "+"<br><b>Press again to restart</b>";
+}
+
