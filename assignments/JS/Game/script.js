@@ -5,3 +5,6 @@ const gameArea=document.querySelector('.gameArea');
 startScreen.addEventListener('click',start);
 let player={speed:5,score:0};
 let keys ={ArrowUp:false,ArrowDown:false,ArrowLeft:false,ArrowRight:false}
+
+document.addEventListener('keydown',keyDown);
+document.addEventListener('keyup',keyUp);
