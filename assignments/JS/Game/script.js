@@ -80,4 +80,7 @@ if(keys.ArrowDown && player.y<(road.bottom-85)){
 if(keys.ArrowLeft && player.x>0 ){
     player.x-=player.speed
 }
+if(keys.ArrowRight && player.x<(road.width-50)){
+    player.x+=player.speed
+}
 
