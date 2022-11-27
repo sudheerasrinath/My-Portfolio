@@ -20,3 +20,9 @@ function keyDown(e){
     keys[e.key]=true;
 }
 
+function isCollide(a,b){
+    aRect=a.getBoundingClientRect();
+    bRect=b.getBoundingClientRect();
+    return !((aRect.bottom<bRect.top)||(aRect.top>bRect.bottom)||(aRect.right<bRect.left)||(aRect.left>bRect.right))
+}
+
