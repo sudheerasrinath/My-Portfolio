@@ -74,4 +74,7 @@ function gamePlay(){
 if(keys.ArrowUp && player.y>(road.top+70)){
     player.y-=player.speed
 }
+if(keys.ArrowDown && player.y<(road.bottom-85)){
+    player.y+=player.speed
+}
 
