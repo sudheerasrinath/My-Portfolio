@@ -69,8 +69,7 @@ function gamePlay(){
     if(player.start) {
         moveLines();
         moveEnemy(car);
-    }
-}
+
 if(keys.ArrowUp && player.y>(road.top+70)){
     player.y-=player.speed
 }
@@ -83,4 +82,13 @@ if(keys.ArrowLeft && player.x>0 ){
 if(keys.ArrowRight && player.x<(road.width-50)){
     player.x+=player.speed
 }
+car.style.top=player.y+"px";
+car.style.left=player.x+"px";
+window.requestAnimationFrame(gamePlay);
+console.log(player.score++);
+player.score++;
+let ps=player.score-1;
+score.innerText="Score: "+ps;
 
+    }
+}
