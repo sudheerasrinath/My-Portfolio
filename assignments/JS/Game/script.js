@@ -8,3 +8,8 @@ let keys ={ArrowUp:false,ArrowDown:false,ArrowLeft:false,ArrowRight:false}
 
 document.addEventListener('keydown',keyDown);
 document.addEventListener('keyup',keyUp);
+
+function keyDown(e){
+    e.preventDefault();
+    keys[e.key]=true;
+}
