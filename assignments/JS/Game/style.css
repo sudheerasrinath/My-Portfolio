@@ -7,3 +7,13 @@
     display:none;
 }
 
+.car{
+    height:120px;
+    border-radius: 10px;
+    width:50px;
+    position:absolute;
+    bottom:120px;
+    background:url(/images/car2.jpg);
+    background-repeat: no-repeat;
+    background-size: 50px 120px;
+}
