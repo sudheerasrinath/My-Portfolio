@@ -92,3 +92,7 @@ score.innerText="Score: "+ps;
 
     }
 }
+
+function start(){
+
+}
