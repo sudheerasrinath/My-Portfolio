@@ -63,6 +63,8 @@ function moveEnemy(car){
 }
 
 function gamePlay(){
-
+    console.log("Let's Go");
+    let car=document.querySelector('.car');
+    let road=gameArea.getBoundingClientRect();
 }
 
