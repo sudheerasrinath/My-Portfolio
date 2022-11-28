@@ -108,3 +108,8 @@ for(x=0;x<5;x++){
     roadLine.style.top=roadLine.y+"px";
     gameArea.appendChild(roadLine);
 }
+
+let car=document.createElement('div');
+car.setAttribute('class','car');
+/*car.innerText="Hey I am car";*/
+gameArea.appendChild(car);
