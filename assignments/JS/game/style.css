@@ -21,7 +21,7 @@
     width: 50px;
     position: absolute;
     bottom: 120px;
-    background: url(/images/car2.jpg);
+    background: url(car2.jpg);
     background-repeat: no-repeat;
     background-size: 50px 120px;
 }
@@ -60,7 +60,7 @@
     width:50px;
     position:absolute;
     bottom:120px;
-    background:url(/images/car.png);
+    background:url(car.png);
     background-repeat: no-repeat;
     background-size: 50px 100px;
 }
