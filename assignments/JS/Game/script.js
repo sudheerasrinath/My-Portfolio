@@ -113,3 +113,7 @@ let car=document.createElement('div');
 car.setAttribute('class','car');
 /*car.innerText="Hey I am car";*/
 gameArea.appendChild(car);
+
+player.x=car.offsetLeft;
+player.y=car.offsetTop;
+
