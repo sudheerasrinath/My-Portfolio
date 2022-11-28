@@ -111,9 +111,19 @@ for(x=0;x<5;x++){
 
 let car=document.createElement('div');
 car.setAttribute('class','car');
-/*car.innerText="Hey I am car";*/
 gameArea.appendChild(car);
 
 player.x=car.offsetLeft;
 player.y=car.offsetTop;
+
+for(x=0;x<3;x++){
+    let enemyCar=document.createElement('div');
+    enemyCar.setAttribute('class','enemy');
+    enemyCar.y=((x+1)*350)*-1;
+    enemyCar.style.top=enemyCar.y+"px";
+    enemyCar.style.backgroundColor=randomColor();
+    enemyCar.style.left=Math.floor(Math.random()*350)+"px";
+    gameArea.appendChild(enemyCar);
+}
+
 
