@@ -94,5 +94,9 @@ score.innerText="Score: "+ps;
 }
 
 function start(){
-
+    startScreen.classList.add('hide');
+    gameArea.innerHTML="";
+    player.start=true;
+    player.score=0;
+    window.requestAnimationFrame(gamePlay);
 }
