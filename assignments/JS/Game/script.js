@@ -100,3 +100,11 @@ function start(){
     player.score=0;
     window.requestAnimationFrame(gamePlay);
 }
+
+for(x=0;x<5;x++){
+    let roadLine=document.createElement('div');
+    roadLine.setAttribute('class','lines');
+    roadLine.y=(x*150);
+    roadLine.style.top=roadLine.y+"px";
+    gameArea.appendChild(roadLine);
+}
