@@ -1,8 +1,11 @@
  const score=document.querySelector('.score');
             const startScreen=document.querySelector('.startScreen');
             const gameArea=document.querySelector('.gameArea');
-            /*console.log(gameArea);*/
+
             startScreen.addEventListener('click',start);
+
+            // controlling
+
             let player={speed:5,score:0};
             let keys ={ArrowUp:false,ArrowDown:false,ArrowLeft:false,ArrowRight:false}
 
@@ -43,6 +46,9 @@
                 startScreen.classList.remove('hide');
                 startScreen.innerHTML="<b>Game Over</b> <br> Final score:"+player.score+" "+"<br><b>Press again to restart</b>";
             }
+
+            // enemy car settings
+
             function moveEnemy(car){
                 let enemy=document.querySelectorAll('.enemy');
                 enemy.forEach(function(item){
@@ -131,6 +137,9 @@
 
 
             }
+
+            // Random colors for enemy car
+
             function randomColor(){
                 function c(){
                     let hex=Math.floor(Math.random()*256).toString(16);
